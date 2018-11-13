@@ -39,9 +39,9 @@ ul > li > ul > li > ul > li { font-size:1.2rem }
 .title-slide .remark-slide-number { display:none }
 
 .my-header {
-  background-image:url("figures/bbaw.svg");
-  background-repeat: no-repeat;
-  background-position:right;
+  background-image:url("figures/bbaw.svg"), url("figures/Logo_ZZF.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position:right, left;
   position: fixed;
   border-bottom:1px solid #ccc;
   top: 0px;
