@@ -71,5 +71,12 @@ Semantik etc.
         * *Phrase*: syntaktische Kategorie, syntaktische Funktion
         * *Satz*: syntaktische Struktur, Satzsemantik, Funktion im Text (?)
     + *manuelle* vs. *automatische* Annotation
+- Annotation von Korpora
+    + Strukturierung und Anreicherung der Rohtexte zum Zwecke
+        * besserer Durchsuchbarkeit
+        * einfacherer Belegidentifikation
+        * moderner Korpuspräsentationsformen
+        * quantitativer Auswertungen
+    + Korpusumfang bedingt vollautomatische Analysekette
 
 ---
