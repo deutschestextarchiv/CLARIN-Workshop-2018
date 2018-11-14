@@ -42,8 +42,9 @@ ul > li > ul > li > ul > li { font-size:1.2rem }
   background-image:url("figures/bbaw.svg"), url("figures/Logo_ZZF.svg");
   background-repeat: no-repeat, no-repeat;
   background-position:right, left;
-  background-size: 10%, 10%;
+  background-size: 40%, 30%;
   border-bottom:1px solid #ccc;
+  position: fixed;
   top: 0px;
   left: 0px;
   height: 80px;

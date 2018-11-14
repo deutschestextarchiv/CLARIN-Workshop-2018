@@ -28,14 +28,14 @@ class: title-slide
 
 ---
 
-# _Digital turn_ in den Geisteswissenschaften?
+# *Digital turn* in den Geisteswissenschaften?
 
-_Was sind Digitale Geisteswissenschaften?_
+*Was sind Digitale Geisteswissenschaften?*
 - Neue Arbeitsweisen?
 - Neue Methodiken?
 - Eine neue Disziplin?
 
-_Alle arbeiten bereits „digital“_
+*Alle arbeiten bereits „digital“*
 - mit Smartboards, Lernplattformen und digitalen Bildungsmedien
 - mit Online‐Katalogen der Bibliotheken und fachlichen Onlineportalen (z.B. HSozKult)
 - mit digitalen Werkzeugen (wie Googles „Ngram‐Viewer“)
