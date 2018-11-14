@@ -39,3 +39,15 @@ _Alle arbeiten bereits „digital“_
 - mit Smartboards, Lernplattformen und digitalen Bildungsmedien
 - mit Online‐Katalogen der Bibliotheken und fachlichen Onlineportalen (z.B. HSozKult)
 - mit digitalen Werkzeugen (wie Googles „Ngram‐Viewer“)
+
+---
+
+# Google _Ngram_ – Fluch oder Segen?
+
+:::info
+Fallbeispiel: „love=>*_noun“ im „English“-Korpus 
+(10 häufigtsten Nomen in der Nähe von „love“)
+:::
+
+
+![](https://i.imgur.com/zq6Rr0T.jpg)
