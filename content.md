@@ -23,3 +23,19 @@ class: title-slide
 | [werneke@zzf-potsdam.de](mailto:werneke@zzf-potsdam.de) | [wuerzner@bbaw.de](mailto:wuerzner@bbaw.de) |
 
 ---
+
+# Überblick
+
+---
+
+# _Digital turn_ in den Geisteswissenschaften?
+
+_Was sind Digitale Geisteswissenschaften?_
+- Neue Arbeitsweisen?
+- Neue Methodiken?
+- Eine neue Disziplin?
+
+_Alle arbeiten bereits „digital“_
+- mit Smartboards, Lernplattformen und digitalen Bildungsmedien
+- mit Online‐Katalogen der Bibliotheken und fachlichen Onlineportalen (z.B. HSozKult)
+- mit digitalen Werkzeugen (wie Googles „Ngram‐Viewer“)
