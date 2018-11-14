@@ -28,7 +28,7 @@ class: title-slide
 
 ---
 
-# *Digital turn* in den Geisteswissenschaften?
+# Digital turn?
 
 - *Was sind Digitale Geisteswissenschaften?*
     + Neue Arbeitsweisen?
@@ -45,9 +45,31 @@ class: title-slide
 # Google _Ngram_ – Fluch oder Segen?
 
 :::info
-Fallbeispiel: „love=>*_noun“ im „English“-Korpus 
+Fallbeispiel: `love=>*_noun` im „English“-Korpus 
 (10 häufigtsten Nomen in der Nähe von „love“)
 :::
 
 
 ![](https://i.imgur.com/zq6Rr0T.jpg)
+
+---
+
+class: title-slide
+
+# Linguistische Annotation
+
+---
+
+# Linguistische Annotation
+
+- Zum Begriff der Linguistischen Annotation
+    + Auszeichnung bestimmter linguistischer Eigenschaften
+    + Bezug zu einer Einheit des Textes:
+        * **Wort**: Silbenstruktur, morphologische Zerlegung, lexikalische
+Semantik etc.
+        * *Wortgruppe*: Mehrwortausdrücke, Namen, Kollokationen etc.
+        * *Phrase*: syntaktische Kategorie, syntaktische Funktion
+        * *Satz*: syntaktische Struktur, Satzsemantik, Funktion im Text (?)
+    + *manuelle* vs. *automatische* Annotation
+
+---
