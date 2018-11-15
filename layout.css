@@ -42,7 +42,7 @@ ul > li > ul > li > ul > li { font-size:1.2rem }
   background-image: url("figures/ClarinD-Logo.svg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 50%;
+  background-size: 10%;
   border-bottom: 1px solid #ccc;
   position: fixed;
   top: 0px;

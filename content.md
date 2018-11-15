@@ -80,3 +80,57 @@ Semantik etc.
     + Korpusumfang bedingt vollautomatische Analysekette
 
 ---
+
+# Linguistische Annotation
+
+- Beispiel:
+
+---
+
+# Linguistische Annotation
+
+- Analysekette:
+    + Zerlegung des Fließtextes in Wörter und Sätze: **Tokenisierung**
+    + Bestimmung der Grundform der Wörter: **Lemmatisierung**
+    + Bestimmung der tatsächlichen Wortart eines Wortes: **PoS-Tagging**
+    + Klassifizierung der Beziehungen der Wörter untereinander: **Dependenzparsing**
+- vollautomatisch möglich (mit akzeptabler Qualität)
+- zwei grundsätzliche Ansätze der Modellierung:
+    + auf Basis von Expertenwissen **manuell** erstellte Regeln
+    + auf Basis manuell erstellter Beispiele **automatisch** induzierte Regeln
+
+---
+
+# NLP: Tokenisierung
+
+- Unterteilung von Fließtext in **Wörter** (bzw. *Tokens*) und **Sätze**
+- (Vor-)Klassifizierung der Tokens zur Beschleunigung der morphologischen Analyse
+    + Abkürzungen
+    + Zahlen
+    + Sonderzeichen
+    + Fremdalphabete
+- Normalisierung der Worttrennung
+- Ansatz: Trennung an Leerraum
+- im DWDS: statistischer Ansatz, **überwachtes Lernen**
+
+---
+
+# NLP: Tokenisierung
+
+Problembereich *Satz*
+```
+Nach einer Schätzung des Industrieministeriums sind es mehr als 800.
+»Österreich wurde alleingelassen in Europa«, beschwerte sich SPÖ-
+Zentralsekretär Josef Cap.
+SZ: Auf die Wahlerfolge der rechtsradikalen Parteien ...
+```
+Problembereich *Token*
+```
+Kaiser's-Netz → Kaiser 's-Netz
+Jeanne d'Arc → Jeanne d' Arc
+mm. → mm. [ORD]
+CDU/CSU → CDU / CSU
+(Verwaltungs-)Personal → ( Verwaltungs- ) Personal
+```
+
+---
