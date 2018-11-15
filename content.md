@@ -101,7 +101,7 @@ Semantik etc.
 
 ---
 
-# NLP: Tokenisierung
+# Tokenisierung
 
 - Unterteilung von Fließtext in **Wörter** (bzw. *Tokens*) und **Sätze**
 - (Vor-)Klassifizierung der Tokens zur Beschleunigung der morphologischen Analyse
@@ -115,7 +115,7 @@ Semantik etc.
 
 ---
 
-# NLP: Tokenisierung
+# Tokenisierung
 
 Problembereich *Satz*
 ```
@@ -132,5 +132,144 @@ mm. → mm. [ORD]
 CDU/CSU → CDU / CSU
 (Verwaltungs-)Personal → ( Verwaltungs- ) Personal
 ```
+
+---
+
+# Morphologische Analyse
+
+- Aufgabe
+    + Bestimmung der **möglichen** Wortarten eines Wortes
+      ```
+      grünen ↦ {Verb, Adjektiv}
+      Müller ↦ {Substantiv, Eigenname}
+      ```
+    + Abbildung auf eine kanonische **Grundform** (*Lemma*)
+      ```
+      grünen  ↦ grün
+      Müllers ↦ Müller
+      ```
+    + Identifikation der beteiligten Wortbildungsprozesse
+      ```
+      Grünspan ↦ grün<A>#Span<N>
+      verirren ↦ ver<p>+irren<V>
+      ```
+
+---
+
+# Morphologische Analyse
+
+- Verfahren des maschinellen Lernens nicht geeignet
+- Herausfordend für Sprachen mit komplexer Wortbildung
+- `Finite State Morphology` (klassischer regelbasierter Ansatz):
+    + Man nehme
+        * eine **große** Liste einfacher Wörter
+        * deren **morphosyntaktische** Eigenschaften
+        * Vor- und Nachsilben,
+    + packe dies in einen **endlichen Automaten** und
+    + bilde dessen **Kleenesche Hülle**
+- Bestandteil der meisten Sprachverarbeitungssysteme
+
+---
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+.center[.img-orig[![Lexikon](figures/morph_ex.svg)]]
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+.center[.img-orig[![Lexikon](figures/morph_ex2.svg)]]
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="figures/morph_ex3.svg" width="650" /></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="figures/morph_ex4.svg" width="880" /></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="figures/morph_ex6.svg" width="880" /></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="figures/morph_ex5.svg" width="880" /></center>
+
+---
+
+# PoS-Tagging
+
+- Auswahl der **wahrscheinlichsten Wortart** im konkreten Satzkontext aus der Menge der **möglichen** Wortarten eines
+Wortes
+- statistischer Ansatz, trainiert auf **manuell kategorisierten** Daten
+    + Modell über Trigramme aus Wörtern und Kategoriemengen (i.e. Wortklasse)
+    + Bestimmung der wahrscheinlichsten Kategoriesequenz für einen Satz
+    + heuristische Auswahl der »einfachsten« **Grundform**
+    + angepasste Modelle für historische Sprache, gesprochene Sprache, Kindersprache etc.
+- `TreeTagger` als bekanntestes, frei verfügbares Werkzeug
+
+---
+
+# PoS-Tagging
+
+.center[<img src="figures/kohl1.svg" style="width:800px"/>]
+
+---
+
+count: false
+
+# PoS-Tagging
+
+.center[<img src="figures/kohl.svg" style="width:800px"/>]
 
 ---
