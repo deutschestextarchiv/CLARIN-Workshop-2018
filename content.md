@@ -635,8 +635,7 @@ Wortbeziehungen für „Erziehung“ in DiaCollo
   + *Neues Deutschland*
   + *Berliner Zeitung*
   + *Neue Zeit*
-
-Im Rahmen eines CLARIN-D Kurationsprojektes aufbereitet und für Text Mining tauglich gemacht.
+- im Rahmen eines CLARIN-D-Kurationsprojektes aufbereitet
 
 ---
 
@@ -669,13 +668,13 @@ Im Rahmen eines CLARIN-D Kurationsprojektes aufbereitet und für Text Mining tau
 
 ---
 
-# Ritualisierung: Erweiterbare feste Phrasen
+# Ritualisierung der Presseprache
 
 ![](https://i.imgur.com/JAHmVqE.jpg)
 
 ---
 
-# Entdifferenzierung in der DDR-Pressesprache
+# Entdifferenzierung der Pressesprache
 
 - **Schritt 1**: Identifikation von hochfrequenten Begriffen mittels korpusstatistischer Auswertung
 - **Schritt 2**: Auswahl interessanter Begriffe wie „Wohl“ oder „Sorge“
@@ -684,7 +683,7 @@ Im Rahmen eines CLARIN-D Kurationsprojektes aufbereitet und für Text Mining tau
 
 ---
 
-# Entdifferenzierung in der DDR-Pressesprache
+# Entdifferenzierung der Pressesprache
 
 Identifikation hochfrequenter Begriffe im Korpus
 
@@ -697,10 +696,8 @@ Häufigste Nomen im Gesamtkorpus (Menschen, Leben, [Tanzen], Welt)
 # Modulare Sprache in der DDR-Presse
 
 ![](https://i.imgur.com/YHWObHj.jpg)
-Kollokationen zu „Wohl“ in den 1950ern (ND, 20 Beste Treffer, nur Nomen)
-
+Kollokationen zu „Wohl“ in den 50ern (ND, nur Nomen)
 ![](https://i.imgur.com/xejHUOc.jpg)
-
 Kollokationen zu "Wohl" in den [1980er Jahren](http://kaskade.dwds.de/dstar/nd/diacollo/?query=Wohl&_s=submit&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=l%2Cp%3DNN&debug=1&eps=0)
 
 ---
@@ -732,7 +729,7 @@ Sprachtransfer in die DDR-Presse?
   + formulierter Anspruch an die (kommunale) Verwaltung
   + Ende der 1970er Jahre als direkte Aufgabe der Politik formuliert
   + etwa gleichbleibende Frequenz in 1970er und [leicht rückläufig](http://kaskade.dwds.de/dstar/zeit/dstar.perl?fmt=hist&pformat=svg&q=B%C3%BCrgernah&_s=submit&n=abs&smooth=none&sl=1&w=1&wb=0&pr=0&xr=1949%3A1990&yr=0%3A*&psize=840%2C480) in 1980er Jahren
--**Ergebnisse DDR-Presseportal:**
+- **Ergebnisse DDR-Presseportal:**
   + erster Beleg 1979 in Berliner Zeitung
   + auch hier stark auf Verwaltung bezogen
   + Gegenbegriff „Bürokratismus“
