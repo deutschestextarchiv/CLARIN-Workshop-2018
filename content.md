@@ -465,7 +465,7 @@ Fünf neue Basisfertigkeiten nach Andreas Fickers (Luxemburg):
 
 class: title-slide
 
-# Blended Reading und die Kollokationsanalyse mit `DiaCollo`
+# Blended Reading und die Kollokationsanalyse mit DiaCollo
 
 ---
 
@@ -507,3 +507,30 @@ class: title-slide
 class: title-slide
 
 # Fallbeispiele
+
+---
+
+# Fallbeispiele - Vorgehenweise
+
+*Explorativ*
+- Wordstatistiken und Verlaufskurven
+- signifikante Veränderungen im Inhaltswortbereich
+- Hinweise auf Bedeutungsverschiebung bzw. Bezeichnungswandel
+
+*Hypothesengeleitet*
+- spezifische Korpusrecherchen zur efizienten Belegauswahl
+- Belegauswertung
+- quantitatives „Untermauern“
+
+---
+
+# Fallbeispiel 1: Antisemitismus
+
+![](https://i.imgur.com/cjApfpk.jpg)
+
+- Nationalliberale Zeitschrift „Die Grenzboten“
+  + Erscheinungszeitraum 1841 bis 1922 wöchentlich, zeitweise zweiwöchentlich.
+  + Insgesamt ca. 270 Bände (ca. 187.000 Seiten)
+- Digitalisierung an der SuUB Bremen im Rahmen zweier DFG-Projekte
+  + Erschließung von Volltext **und** Struktur 
+  + seit 2017 auch in CLARIN-D integriert
