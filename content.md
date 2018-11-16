@@ -273,3 +273,39 @@ count: false
 .center[<img src="figures/kohl.svg" style="width:800px"/>]
 
 ---
+
+# Wortverlaufskurven
+
++ **Häufigkeit eines Wort über einen zeitlichen Verlauf**
++ nutzen Textsammlungen als Basis; z.B.:
+    - Zeitungen (1945 bis heute)
+    - Deutsches Textarchiv und DWDS-Kernkorpus (1600&ndash;2000)
++ Metadaten für jeden Text:
+    - *Datum* (Jahr)
+    - *Textklasse* (Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung)
+    - und viele weitere (i.e. beliebige DDC-Abfragen)
++ Darstellung:
+    - relativ (Vorkommen pro Million)
+        + 
+.red[Achtung!] Kurven werden häufig geglättet, da nicht für jedes Jahr ausreichend und gleich viele Daten verfügbar sind
+    - in absoluten Zahlen
+
+---
+
+# Wortverlaufskurven
+
+.center[<img src="figures/stress.svg" style="width:800px"/>]
+
+---
+
+# Wortverlaufskurven
+
+.center[<img src="figures/flugzeug_vs_eisenbahn.svg" style="width:800px"/>]
+
+---
+
+# Wortverlaufskurven
+
+.center[<img src="figures/kanzler_vs_kanzlerin.svg" style="width:800px"/>]
+
+---
