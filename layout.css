@@ -3,7 +3,7 @@
 
 a { color:#009; text-decoration:none }
 
-blockquote { padding:0 1em; color:#6a737d; border-left:0.25em solid #dfe2e5; font-size:1.5rem }
+blockquote  > p { padding:0 1em; color:#6a737d; border-left:0.25em solid #dfe2e5; font-size:1.5rem }
 
 code, code * { font-family:monospace; font-size:1.3rem; background:#f6f8fa }
 
