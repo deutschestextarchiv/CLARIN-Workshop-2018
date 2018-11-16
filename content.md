@@ -94,6 +94,7 @@ Semantik etc.
     + Bestimmung der Grundform der Wörter: **Lemmatisierung**
     + Bestimmung der tatsächlichen Wortart eines Wortes: **PoS-Tagging**
     + Klassifizierung der Beziehungen der Wörter untereinander: **Dependenzparsing**
+    + Auszählen gemeinsamer Vorkommen von Wörtern bzw. Wortgruppen: **distributionelle Semantik**
 - vollautomatisch möglich (mit akzeptabler Qualität)
 - zwei grundsätzliche Ansätze der Modellierung:
     + auf Basis von Expertenwissen **manuell** erstellte Regeln
@@ -111,7 +112,7 @@ Semantik etc.
     + Fremdalphabete
 - Normalisierung der Worttrennung
 - Ansatz: Trennung an Leerraum
-- im DWDS: statistischer Ansatz, **überwachtes Lernen**
+- im statistischer Ansatz, **überwachtes Lernen**
 
 ---
 
@@ -309,3 +310,94 @@ count: false
 .center[<img src="figures/kanzler_vs_kanzlerin.svg" style="width:800px"/>]
 
 ---
+
+# Typische Verbindungen
+
+- **DWDS-Wortprofil**
+    + statistisch signifikante und damit typische Wortverbindungen
+    + als Schlagwortwolke (Tagcloud) oder als Tabelle
+    + kombiniert distributionelle Semantik mit Dependenzparsing
+
+.center[.img-orig[![Stress](figures/wp_kaffee_objekt.png)]]
+
+---
+
+# Typische Verbindungen
+
+.center[<img src="figures/wp_kaffee.png" style="width:700px"/>]
+
+---
+
+# Distributionelle Semantik
+
+- Semantik: Theorie von der sprachlichen Bedeutung
+    + **lexikalische** Semantik: Wortbedeutungen
+    + **kompositionelle** Semantik: Phrasen- und Satzbedeutung
+    * **ontologische** Beziehungen: Synonyme, Hyponyme, Hyperonyme
+- mit automatischen Verfahren sehr schwer zu erfassen
+- distributionelle Ähnlichkeit: gleiche Kontexte ⇒ ähnliche Bedeutung
+- <span style="font-variant:small-caps;">John Rupert Firth</span> (1890&ndash;1960)
+    + »You shall know a word by the company it keeps« (1957)
+    + `Er versenkte den .... im Tor.`
+
+---
+
+count: false
+
+# Distributionelle Semantik
+
+- Semantik: Theorie von der sprachlichen Bedeutung
+    + **lexikalische** Semantik: Wortbedeutungen
+    + **kompositionelle** Semantik: Phrasen- und Satzbedeutung
+    * **ontologische** Beziehungen: Synonyme, Hyponyme, Hyperonyme
+- mit automatischen Verfahren sehr schwer zu erfassen
+- distributionelle Ähnlichkeit: gleiche Kontexte ⇒ ähnliche Bedeutung
+- <span style="font-variant:small-caps;">John Rupert Firth</span> (1890&ndash;1960)
+    + »You shall know a word by the company it keeps« (1957)
+    + `Er versenkte den Ball im Tor.`
+
+---
+
+# Distributionelle Semantik
+
+- Vorgehen:
+    + Man definiere einen **Kontext** (z.&#x202f;B. Satz) und **interessante** Wörter,
+    + werfe für jedes Zielwort alle interessanten Wörter (z.&#x202f;B. *Nomen* und *Verben*) aus dem Kontext in einen Topf (*Bag of Words*),
+    + repräsentiere den Topf als **hochdimensionalen Vektorraum** und
+    + vergleiche die Vektoren miteinander.
+- Illustration:
+    + `Der Säufer randalierte in der Kneipe. Die Polizei sperrte den Säufer ein, weil er randalierte.`
+.right[<img src="figures/distr.svg" style="width:180px"/>]
+
+---
+
+# Dependenzparsing
+
+- Bestimmung der **strukturellen** Beziehungen zwischen Wörtern im Satz
+- **regelbasierter** Ansatz
+    + handgeschriebene Grammatik
+    + Grundform, Kategorie und morphosyntaktische Merkmale als Beschreibungseinheit
+    + Implementierung mit Hilfe endlicher, gewichteter Automaten
+(schnell!)
+
+---
+
+# Dependenzparsing
+
+.center[<img src="figures/dependency_ex.svg" style="width:800px"/>]
+
+---
+
+# Typische Verbindungen
+
++ Wortvergleiche: Gemeinsamkeiten und Unterschiede
+
+.center[<span style="color:#5B7BB6;font-weight:bold">verkünden</span> und <span style="color:#c30c60;font-weight:bold">bekanntgeben</span>]
+
+.center[<img src="figures/wp_vergleich.png" style="height:400px"/>]
+
+---
+
+# Spiel: Profilardy
+
+.center[[**Klick mich!**](https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwezA)]
