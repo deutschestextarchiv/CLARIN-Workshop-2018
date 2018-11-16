@@ -26,6 +26,12 @@ class: title-slide
 
 # Überblick
 
+- Vier Ziele:
+  1. Vermittlung technischer Grundlagen
+  2. Veranschaulichung der computerlinguitischen Verfahren anhand einfacher Beispiele
+  3. Annäherung an die methodischen Herausforderungen der digitalen Hermeneutik
+  4. Einstieg in fachlich relevante Fallbeispiele
+
 ---
 
 # Digital turn?
@@ -51,6 +57,12 @@ Fallbeispiel: `love=>*_noun` im „English“-Korpus
 
 
 ![](https://i.imgur.com/zq6Rr0T.jpg)
+
+---
+
+class: title-slide
+
+# Textsammlungen
 
 ---
 
@@ -401,3 +413,98 @@ count: false
 # Spiel: Profilardy
 
 .center[[**Klick mich!**](https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwezA)]
+
+---
+
+class: title-slide
+
+# Digitale Hermeneutik
+
+---
+
+# Operationalisierung digitaler Tools
+Wie geht der Forscher mit quantitativen Ergebnissen um?
+- Grundvoraussetzung ist Kenntnis über die Arbeitsweise digitaler Tools
+- Vorgehen: Integration von **Distant Reading**-Methoden und klassischen **Close Reading**-Ansätzen
+- Ziel: Etablierung einer neuen hermeneutischen Methode: **Digitale Hermeneutik**
+
+---
+
+# Definition Distant Reading
+
+---
+
+# Verfahren des Distant Reading
+
+1. Volltextsuche
+2. Lexikometrie und Korpusstatistik
+3. Methoden maschinellen Lernens/ Topic modelling
+4. Netzwerkanalysen
+
+**Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Text-Korpora
+
+
+---
+
+# Auf dem Weg zur Digitalen Hermeneutik?
+
+Fünf neue Basisfertigkeiten nach Andreas Fickers (Luxemburg):
+- Algorithmuskritik
+- Datenkritik
+- Werkzeugkritik
+- Interface-Kritik
+- Simulationskritik
+
+---
+
+# Close + Distant = Blended Reading?
+
+```
+> *„Unter dem Begriff des ‚blended reading‘ schlagen wir eine Strategie im Sinne einer Best Practise vor, die semiautomatische Analyseverfahren mit klassischer Textlektüre so integriert, dass sozialwissenschaftliche Erkenntnispotenziale, die sich auf die Auswertung großer Textdatenmengen stützen, optimal ausgeschöpft werden.“*
+> Stulpe/Lemke (Textmining in den Sozialwissenschaften, 2016, S. 21)
+```
+
+---
+
+class: title-slide
+
+# Blended Reading und die Kollokationsanalyse mit `DiaCollo`
+
+---
+
+# Definition: Kollokation
+
+- *Kollokation* bezeichnet häufiges gemeinsames Auftreten zweier Wörter in vordefiniertem Kontext (Satz, Absatz etc.)
+  + enge semantische Beziehungen (Schüler-Lehrer) 
+  + Sachverhalte (Schule-Reform) 
+  + feste Phrasen (Hänschen-Hans)
+- **Grundidee:**
+  + Ermittlung aller Kollokationen eines Eingabebegriffes
+  + Ordnung nach deren Assoziationsgrad zum Eingabebegriff
+  + Beispiel ["Begriff"](http://kaskade.dwds.de/dstar/dta/diacollo/?query=Begriff&date=&slice=50&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=&eps=0) im DTA
+
+---
+
+# Diachrone Kollokationsanalyse mit `DiaCollo`
+
+```
+> *„Die Bedeutung eines Wortes ist sein Gebrauch in der Sprache“*
+> Ludwig Wittgenstein (Philosophische Untersuchungen)
+```
+
+- DiaCollo ermöglicht die Analyse von Sprachwandel indem es die historische (Zeit-)Dimension in großen digitalen Textkorpora visualisiert
+- Untersuchungszeiträume frei skalierbar (jahresweise, dekadenweise etc.)
+- Visualisierungsoptionen für Abfrageergebnisse (Wordclouds, Bubble, Gmotion, Html‐Lists)
+- getestet an großen und mittelgroßen Korpora, darunter die *Grenzboten* und *DDR-Presseportal*
+
+---
+
+# Weitere Informationen unter:
+
+```
+[http://kaskade.dwds.de/dstar/dta/diacollo/](http://kaskade.dwds.de/dstar/dta/diacollo/)
+[http://kaskade.dwds.de/diacollo‐tutorial/#introduction.html](http://kaskade.dwds.de/diacollo‐tutorial/#introduction.html)
+[https://clarin‐d.net/de/kollokationsanalyse‐in‐diachroner‐perspektive](https://clarin‐d.net/de/kollokationsanalyse‐in‐diachroner‐perspektive)
+```
+
+![DiaCollo](https://i.imgur.com/hcCsIUN.jpg)
