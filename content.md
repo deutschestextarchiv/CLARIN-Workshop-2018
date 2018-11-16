@@ -527,8 +527,50 @@ class: title-slide
 ![](https://i.imgur.com/cjApfpk.jpg)
 
 - Nationalliberale Zeitschrift „Die Grenzboten“
-  + Erscheinungszeitraum 1841 bis 1922 wöchentlich, zeitweise zweiwöchentlich.
+  + Erscheinungszeitraum 1841 bis 1922 wöchentlich, zeitweise zweiwöchentlich
   + Insgesamt ca. 270 Bände (ca. 187.000 Seiten)
 - Digitalisierung an der SuUB Bremen im Rahmen zweier DFG-Projekte
   + Erschließung von Volltext **und** Struktur 
   + seit 2017 auch in CLARIN-D integriert
+
+---
+
+# Fallbeispiel 1: Antisemitismus
+
+Methodik:
+- **Schritt 1**: Deduktive Eingrenzung eines vielversprechenden Zeitraumes
+  + die 1880er Jahre und der Antisemitismusstreit
+- **Schritt 2**: Suche nach Kollokaten, (hier Nomen `NN`), für den Wortstamm „Jude“
+  + Auswahl ungewöhnlicher Kollokate, die auf Ressentiments  hinweisen
+- **Schritt 3**: Analyse der Textpassagen via Funktion `key word in context` (KWIC)
+  + Konventionelle Quellen‐Exegese
+
+---
+
+# Fallbeispiel 1: Antisemitismus
+
+Einfache Suchabfrage für den Wortstamm „Jude“
+
+
+![](https://i.imgur.com/wS4QxCC.jpg)
+
+---
+
+# Fallbeispiel 1: Antisemitismus
+
+*Close reading* Beispiel zu „Vermehrung“ und „Handel“
+
+> *„Aber auch abgesehen von diesem Umstände erscheint die [Vermehrung](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=html&corpus=&limit=10&ctx=8&q=NEAR(+($l=@%27Jude%27%29+=1,+($l=@%27Vermehrung%27+WITH+$p=@%27NN%27%29+=2,+8%29+#SEPARATE+%23asc_date[1880-00-00,1889-99-99]+%23cntxt+1+%23in+p&_s=submit) der Juden noch viel zu bedeutend, um allein auf besonders günstige biotische Verhältnisse, auf größere Fruchtbarkeit und längere Lebensdauer, die ihnen nebenher nicht abgesprochen werden sollen, zurückgeführt werden zu können.“*<br />
+> In: „Die Juden in Osterreich.“ Die Grenzboten, Jg. 41 (1882), S. 629.
+
+> *„Der tüchtigste Bauer ist oft dem simpelsten Juden lange nicht gewachsen, wo es um Geld, [Handel](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=html&corpus=&limit=10&ctx=8&q=NEAR%28+%28%24l%3D%40%27Jude%27%29+%3D1%2C+%28%24l%3D%40%27Handel%27+WITH+%24p%3D%40%27NN%27%29+%3D2%2C+8%29+&_s=submit#SEPARATE+%23asc_date%5B1880-00-00,1889-99-99%5D+%23cntxt+1+%23in+p&_s=submit), um Schein und Hypothek und Wechsel geht.“*
+> In: „Erdboden.“ Die Grenzboten, Jg. 59 (1900), S. 271.
+
+---
+
+## Fallbeispiel 1: Antisemitismus
+
+**Vorsichtiger Befund:** 
+- Es lassen sich im Grenzboten Stereotypen ausmachen, die auf kulturellen und biologisierenden Rassismus hinweisen. 
+- Die Autoren bauten derartige rassistische Ressentiments in den 1880er-Jahren in ihre Argumentation ein.
+
