@@ -501,3 +501,9 @@ class: title-slide
 [https://clarin‐d.net/de/kollokationsanalyse‐in‐diachroner‐perspektive](https://clarin‐d.net/de/kollokationsanalyse‐in‐diachroner‐perspektive)
 
 ![DiaCollo](https://i.imgur.com/hcCsIUN.jpg)
+
+---
+
+class: title-slide
+
+# Fallbeispiele
