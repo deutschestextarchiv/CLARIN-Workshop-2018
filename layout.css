@@ -3,7 +3,7 @@
 
 a { color:#009; text-decoration:none }
 
-blockquote { padding:0 1em; color:#6a737d; border-left:0.25em solid #dfe2e5 }
+blockquote  > p { padding:0 1em; color:#6a737d; border-left:0.25em solid #dfe2e5; font-size:1.5rem }
 
 code, code * { font-family:monospace; font-size:1.3rem; background:#f6f8fa }
 
@@ -12,11 +12,14 @@ img { max-width:90% }
 
 li { line-height:1.5em; font-size:2rem }
 
+p { line-height:1.5em; font-size:2rem }
+
 pre { margin:0; padding:.5em; background:#f6f8fa }
 
 table { margin:auto; width:100% }
 
 ul > li > ul > li { font-size:1.5rem }
+ul > li > ol > li { font-size:1.5rem }
 ol > li > ul > li { font-size:1.5rem }
 
 ul > li > ul > li > ul > li { font-size:1.2rem }
@@ -39,11 +42,12 @@ ul > li > ul > li > ul > li { font-size:1.2rem }
 .title-slide .remark-slide-number { display:none }
 
 .my-header {
-  background-image:url("figures/bbaw.svg"), url("figures/Logo_ZZF.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position:right, left;
-  background-size: contain;
-  border-bottom:1px solid #ccc;
+  background-image: url("figures/ClarinD-Logo.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 10%;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
   top: 0px;
   left: 0px;
   height: 80px;

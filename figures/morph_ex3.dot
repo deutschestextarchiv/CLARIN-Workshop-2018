@@ -1,0 +1,52 @@
+digraph FSM {
+  graph [
+    rankdir = LR
+    size = "5.0,5.0"
+    fontsize = 14
+    label = ""
+    nodesep = "0.250000"
+    ranksep = "0.400000"
+    center = 1
+  ];
+  node [ 
+    fontname="Helvetica"
+    fontsize=14
+  ];
+  edge [ 
+    fontname="Helvetica"
+    fontsize=14
+  ];
+
+0 [label = "0", shape = circle, style = bold]
+  0 -> 13 [label = "u:u"] 
+  0 -> 15 [label = "ε:ε"]
+15 [label = "15", shape = circle, style = solid]
+  15 -> 1 [label = "G:G"]
+  15 -> 8 [label = "s:s"]
+1 [label = "1", shape = circle, style = solid]
+  1 -> 2 [label = "e:e"]
+2 [label = "2", shape = circle, style = solid]
+  2 -> 3 [label = "i:i"]
+3 [label = "3", shape = circle, style = solid]
+  3 -> 4 [label = "s:s"]
+4 [label = "4", shape = circle, style = solid]
+  4 -> 5 [label = "t:t"]
+5 [label = "5", shape = circle, style = solid]
+  5 -> 7 [label = "ε:<N>"]
+7 [label = "7", shape = doublecircle, style = solid]
+8 [label = "8", shape = circle, style = solid]
+  8 -> 9 [label = "c:c"]
+9 [label = "9", shape = circle, style = solid]
+  9 -> 10 [label = "h:h"]
+10 [label = "10", shape = circle, style = solid]
+  10 -> 11 [label = "ö:ö"]
+11 [label = "11", shape = circle, style = solid]
+  11 -> 12 [label = "n:n"]
+12 [label = "12", shape = circle, style = solid]
+  12 -> 7 [label = "ε:<A>"]
+13 [label = "13", shape = circle, style = solid]
+  13 -> 14 [label = "n:n"]
+  13 -> 14 [label = "r:r"]
+14 [label = "14", shape = circle, style = solid]
+  14 -> 15 [label = "ε:<p>"]
+}
