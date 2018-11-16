@@ -522,7 +522,7 @@ class: title-slide
 
 ---
 
-# Fallbeispiel 1: Antisemitismus
+# Antisemitismus in den *Grenzboten*
 
 ![](https://i.imgur.com/cjApfpk.jpg)
 
@@ -535,7 +535,7 @@ class: title-slide
 
 ---
 
-# Fallbeispiel 1: Antisemitismus
+# Antisemitismus in den *Grenzboten*
 
 Methodik:
 - **Schritt 1**: Deduktive Eingrenzung eines vielversprechenden Zeitraumes
@@ -547,7 +547,7 @@ Methodik:
 
 ---
 
-# Fallbeispiel 1: Antisemitismus
+# Antisemitismus in den *Grenzboten*
 
 Einfache Suchabfrage für den Wortstamm „Jude“
 
@@ -556,7 +556,7 @@ Einfache Suchabfrage für den Wortstamm „Jude“
 
 ---
 
-# Fallbeispiel 1: Antisemitismus
+# Antisemitismus in den *Grenzboten*
 
 *Close reading* Beispiel zu „Vermehrung“ und „Handel“
 
@@ -568,9 +568,62 @@ Einfache Suchabfrage für den Wortstamm „Jude“
 
 ---
 
-## Fallbeispiel 1: Antisemitismus
+# Antisemitismus in den *Grenzboten*
 
 **Vorsichtiger Befund:** 
-- Es lassen sich im Grenzboten Stereotypen ausmachen, die auf kulturellen und biologisierenden Rassismus hinweisen. 
+- Es lassen sich in den Grenzboten Stereotypen ausmachen, die auf kulturellen und biologisierenden Rassismus hinweisen. 
 - Die Autoren bauten derartige rassistische Ressentiments in den 1880er-Jahren in ihre Argumentation ein.
 
+---
+
+# Schule und Erziehung in den *Grenzboten*
+
+- **Schritt 1** Korpusstatistische Abfrage (über lexdb):
+  + Identifizierung hochfrequenter [Begriffe](https://kaskade.dwds.de/dstar/grenzboten/lexdb/view.perl?select=w,p,l,sum(f%23+as+freq&from=lex&where=p+=+'NN'&groupby=l&orderby=freq+desc&offset=0&limit=100&_s=submit)==
+  + Auswahl interessanter Begriffe (hier: [Schule](https://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=hist&pformat=svg&q=Schule&_s=submit&n=date+class&smooth=none&gr=1&sl=1&w=1&wb=0&pr=0&xr=*:*&yr=0:*&psize=840,480&points=1))
+  + Ermittlung hochfrequenter [Kompositaformen](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=kwic&corpus=&limit=100&ctx=8&q=count(/schule/i+#sep%23+#by[$l]+#desc_count&_s=submit) für „Schule“
+
+- **Schritt 2** Suchabfragen über DiaCollo:
+  + Häufigste Adjektive, Substantive, Eigennamen
+  + Ermittlung von Debatten
+  + Recherche in den Texten über KWIC
+
+---
+
+# Schule und Erziehung in den *Grenzboten*
+
+Wortverläufe im Vergleich
+
+![](https://i.imgur.com/oO8ilQm.jpg)
+
+---
+
+# Schule und Erziehung in den *Grenzboten*
+
+„Gymnasium“ in DiaCollo
+
+![](https://i.imgur.com/1WFXkZU.jpg)
+Kollokationen für „Gymnasium“ in 1850er Jahren
+![](https://i.imgur.com/bjbVyKy.jpg)
+Kollokationen für [„Gymnasium“](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Gymnasium&date=&slice=10&score=ld&kbest=10&cutoff=&profile=2&format=cloud&global=1&groupby=&eps=0)" in 1870e Jahren
+
+---
+
+# Schule und Erziehung in den *Grenzboten*
+
+Wortbeziehungen für „Erziehung“ in DiaCollo
+
+- [Adjektive](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
+  + häuslich, sittlich (1850er)
+  + weiblich, ästhetisch (1870er)
+  + national und dann staatsbürgerlich (1910er)
+
+- [Nomen](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
+  + Menschengeschlecht (Lessings Hauptwerk von 1780)
+  + Jugend/ Kind (1860er)
+  + Unterricht, Schule und Ausbildung treten hinzu (1870er)
+
+- [Eigennamen](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
+  + Frankreich (1840er)
+  + Hegel, Lessing, Fichte, Schiller, Rousseau (1860-1880)
+  + Paul Güßfeldt, Georg Kerschensteiner (1890-1910)
