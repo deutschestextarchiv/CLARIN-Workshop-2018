@@ -430,23 +430,22 @@ Wie geht der Forscher mit quantitativen Ergebnissen um?
 
 ---
 
-# Definition Distant Reading
+
+# Distant Reading
+
+- Definition:
+  *
+- Verfahren:
+  1. Volltextsuche
+  2. Lexikometrie und Korpusstatistik
+  3. Methoden maschinellen Lernens/ Topic modelling
+  4. Netzwerkanalysen
+- **Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Text-Korpora
+
 
 ---
 
-# Verfahren des Distant Reading
-
-1. Volltextsuche
-2. Lexikometrie und Korpusstatistik
-3. Methoden maschinellen Lernens/ Topic modelling
-4. Netzwerkanalysen
-
-**Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Text-Korpora
-
-
----
-
-# Auf dem Weg zur Digitalen Hermeneutik?
+# Der Weg zur Digitalen Hermeneutik?
 
 Fünf neue Basisfertigkeiten nach Andreas Fickers (Luxemburg):
 - Algorithmuskritik
@@ -459,10 +458,8 @@ Fünf neue Basisfertigkeiten nach Andreas Fickers (Luxemburg):
 
 # Close + Distant = Blended Reading?
 
-```
 > *„Unter dem Begriff des ‚blended reading‘ schlagen wir eine Strategie im Sinne einer Best Practise vor, die semiautomatische Analyseverfahren mit klassischer Textlektüre so integriert, dass sozialwissenschaftliche Erkenntnispotenziale, die sich auf die Auswertung großer Textdatenmengen stützen, optimal ausgeschöpft werden.“*
 > Stulpe/Lemke (Textmining in den Sozialwissenschaften, 2016, S. 21)
-```
 
 ---
 
@@ -481,30 +478,26 @@ class: title-slide
 - **Grundidee:**
   + Ermittlung aller Kollokationen eines Eingabebegriffes
   + Ordnung nach deren Assoziationsgrad zum Eingabebegriff
-  + Beispiel ["Begriff"](http://kaskade.dwds.de/dstar/dta/diacollo/?query=Begriff&date=&slice=50&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=&eps=0) im DTA
+  + Beispiel [Begriff](http://kaskade.dwds.de/dstar/dta/diacollo/?query=Begriff&date=&slice=50&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=&eps=0) im DTA
 
 ---
 
-# Diachrone Kollokationsanalyse mit `DiaCollo`
+# Diachrone Kollokationsanalyse
 
-```
 > *„Die Bedeutung eines Wortes ist sein Gebrauch in der Sprache“*
 > Ludwig Wittgenstein (Philosophische Untersuchungen)
-```
 
 - DiaCollo ermöglicht die Analyse von Sprachwandel indem es die historische (Zeit-)Dimension in großen digitalen Textkorpora visualisiert
-- Untersuchungszeiträume frei skalierbar (jahresweise, dekadenweise etc.)
-- Visualisierungsoptionen für Abfrageergebnisse (Wordclouds, Bubble, Gmotion, Html‐Lists)
+  + Untersuchungszeiträume frei skalierbar (jahresweise, dekadenweise etc.)
+  + Visualisierungsoptionen für Abfrageergebnisse (Wordclouds, Bubble, Gmotion, Html‐Lists)
 - getestet an großen und mittelgroßen Korpora, darunter die *Grenzboten* und *DDR-Presseportal*
 
 ---
 
 # Weitere Informationen unter:
 
-```
 [http://kaskade.dwds.de/dstar/dta/diacollo/](http://kaskade.dwds.de/dstar/dta/diacollo/)
 [http://kaskade.dwds.de/diacollo‐tutorial/#introduction.html](http://kaskade.dwds.de/diacollo‐tutorial/#introduction.html)
 [https://clarin‐d.net/de/kollokationsanalyse‐in‐diachroner‐perspektive](https://clarin‐d.net/de/kollokationsanalyse‐in‐diachroner‐perspektive)
-```
 
 ![DiaCollo](https://i.imgur.com/hcCsIUN.jpg)
