@@ -28,7 +28,7 @@ class: title-slide
 
 - Vier Ziele:
   1. Vermittlung technischer Grundlagen
-  2. Veranschaulichung der computerlinguitischen Verfahren anhand einfacher Beispiele
+  2. Veranschaulichung der computerlinguistischen Verfahren anhand einfacher Beispiele
   3. Annäherung an die methodischen Herausforderungen der digitalen Hermeneutik
   4. Einstieg in fachlich relevante Fallbeispiele
 
@@ -43,7 +43,7 @@ class: title-slide
 
 - *Alle arbeiten bereits „digital“*
     + mit Smartboards, Lernplattformen und digitalen Bildungsmedien
-    + mit Online‐Katalogen der Bibliotheken und fachlichen Onlineportalen (z.B. HSozKult)
+    + mit Online‐Katalogen der Bibliotheken und fachlichen Onlineportalen (z. B. HSozKult)
     + mit digitalen Werkzeugen (wie Googles „Ngram‐Viewer“)
 
 ---
@@ -51,7 +51,7 @@ class: title-slide
 # Google _Ngram_ – Fluch oder Segen?
 
 Fallbeispiel: `love=>*_noun` im „English“-Korpus 
-(10 häufigtsten Nomen in der Nähe von „love“)
+(10 häufigste Nomen in der Nähe von „love“)
 
 
 ![](https://i.imgur.com/zq6Rr0T.jpg)
@@ -122,7 +122,7 @@ Semantik etc.
     + Fremdalphabete
 - Normalisierung der Worttrennung
 - Ansatz: Trennung an Leerraum
-- im statistischer Ansatz, **überwachtes Lernen**
+- statistischer Ansatz, **überwachtes Lernen**
 
 ---
 
@@ -263,9 +263,9 @@ count: false
 - Auswahl der **wahrscheinlichsten Wortart** im konkreten Satzkontext aus der Menge der **möglichen** Wortarten eines
 Wortes
 - statistischer Ansatz, trainiert auf **manuell kategorisierten** Daten
-    + Modell über Trigramme aus Wörtern und Kategoriemengen (i.e. Wortklasse)
+    + Modell über Trigramme aus Wörtern und Kategoriemengen (i. e. Wortklasse)
     + Bestimmung der wahrscheinlichsten Kategoriesequenz für einen Satz
-    + heuristische Auswahl der »einfachsten« **Grundform**
+    + heuristische Auswahl der „einfachsten“ **Grundform**
     + angepasste Modelle für historische Sprache, gesprochene Sprache, Kindersprache etc.
 - `TreeTagger` als bekanntestes, frei verfügbares Werkzeug
 
@@ -288,13 +288,13 @@ count: false
 # Wortverlaufskurven
 
 + **Häufigkeit eines Wort über einen zeitlichen Verlauf**
-+ nutzen Textsammlungen als Basis; z.B.:
++ nutzen Textsammlungen als Basis, z. B.:
     - Zeitungen (1945 bis heute)
     - Deutsches Textarchiv und DWDS-Kernkorpus (1600&ndash;2000)
 + Metadaten für jeden Text:
     - *Datum* (Jahr)
     - *Textklasse* (Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung)
-    - und viele weitere (i.e. beliebige DDC-Abfragen)
+    - und viele weitere (i. e. beliebige DDC-Abfragen)
 + Darstellung:
     - relativ (Vorkommen pro Million)
         + 
@@ -400,9 +400,7 @@ count: false
 
 # Typische Verbindungen
 
-+ Wortvergleiche: Gemeinsamkeiten und Unterschiede
-
-.center[<span style="color:#5B7BB6;font-weight:bold">verkünden</span> und <span style="color:#c30c60;font-weight:bold">bekanntgeben</span>]
++ Wortvergleiche: Gemeinsamkeiten und Unterschiede <span style="color:#5B7BB6;font-weight:bold">verkünden</span> und <span style="color:#c30c60;font-weight:bold">bekanntgeben</span>
 
 .center[<img src="figures/wp_vergleich.png" style="height:400px"/>]
 
@@ -470,25 +468,25 @@ class: title-slide
 # Definition: Kollokation
 
 - *Kollokation* bezeichnet häufiges gemeinsames Auftreten zweier Wörter in vordefiniertem Kontext (Satz, Absatz etc.)
-  + enge semantische Beziehungen (Schüler-Lehrer) 
-  + Sachverhalte (Schule-Reform) 
-  + feste Phrasen (Hänschen-Hans)
+  + enge semantische Beziehungen (*Schüler* → *Lehrer*) 
+  + Sachverhalte (*Schule* → *Reform*) 
+  + feste Phrasen (*Hänschen* → *Hans*)
 - **Grundidee:**
   + Ermittlung aller Kollokationen eines Eingabebegriffes
   + Ordnung nach deren Assoziationsgrad zum Eingabebegriff
-  + Beispiel [Begriff](http://kaskade.dwds.de/dstar/dta/diacollo/?query=Begriff&date=&slice=50&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=&eps=0) im DTA
+  + Beispiel [*Begriff*](http://kaskade.dwds.de/dstar/dta/diacollo/?query=Begriff&date=&slice=50&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=&eps=0) im DTA
 
 ---
 
 # Diachrone Kollokationsanalyse
 
-> *„Die Bedeutung eines Wortes ist sein Gebrauch in der Sprache“*<br />
+> *„Die Bedeutung eines Wortes ist sein Gebrauch in der Sprache.“*<br />
 > Ludwig Wittgenstein (Philosophische Untersuchungen)
 
-- DiaCollo ermöglicht die Analyse von Sprachwandel indem es die historische (Zeit-)Dimension in großen digitalen Textkorpora visualisiert
+- DiaCollo ermöglicht die Analyse von Sprachwandel, indem es die historische (Zeit-)Dimension in großen digitalen Textkorpora visualisiert
   + Untersuchungszeiträume frei skalierbar (jahresweise, dekadenweise etc.)
-  + Visualisierungsoptionen für Abfrageergebnisse (Wordclouds, Bubble, Gmotion, Html‐Lists)
-- getestet an großen und mittelgroßen Korpora, darunter die *Grenzboten* und *DDR-Presseportal*
+  + Visualisierungsoptionen für Abfrageergebnisse (Wordclouds, Bubble, Gmotion, HTML‐Listen)
+- getestet an großen und mittelgroßen Korpora, darunter *Die Grenzboten* und *DDR-Presseportal*
 
 ---
 
@@ -516,7 +514,7 @@ class: title-slide
   + Hinweise auf Bedeutungsverschiebung bzw. Bezeichnungswandel
 
 - *Hypothesengeleitet*
-  + spezifische Korpusrecherchen zur efizienten Belegauswahl
+  + spezifische Korpusrecherchen zur effizienten Belegauswahl
   + Belegauswertung
   + quantitatives „Untermauern“
 
@@ -528,7 +526,7 @@ class: title-slide
 
 - Nationalliberale Zeitschrift „Die Grenzboten“
   + Erscheinungszeitraum 1841 bis 1922 wöchentlich, zeitweise zweiwöchentlich
-  + Insgesamt ca. 270 Bände (ca. 187.000 Seiten)
+  + Insgesamt ca. 270 Bände (ca. 187 000 Seiten)
 - Digitalisierung an der SuUB Bremen im Rahmen zweier DFG-Projekte
   + Erschließung von Volltext **und** Struktur 
   + seit 2017 auch in CLARIN-D integriert
@@ -543,13 +541,13 @@ Methodik:
 - **Schritt 2**: Suche nach Kollokaten, (hier Nomen `NN`), für den Wortstamm „Jude“
   + Auswahl ungewöhnlicher Kollokate, die auf Ressentiments  hinweisen
 - **Schritt 3**: Analyse der Textpassagen via Funktion `key word in context` (KWIC)
-  + Konventionelle Quellen‐Exegese
+  + konventionelle Quellen‐Exegese
 
 ---
 
 # Antisemitismus in den *Grenzboten*
 
-Einfache Suchabfrage für den Wortstamm „Jude“
+Einfache Suchabfrage nach dem Lemma „Jude“
 
 
 ![](https://i.imgur.com/wS4QxCC.jpg)
@@ -571,26 +569,26 @@ Einfache Suchabfrage für den Wortstamm „Jude“
 # Antisemitismus in den *Grenzboten*
 
 **Vorsichtiger Befund:** 
-- Es lassen sich in den Grenzboten Stereotypen ausmachen, die auf kulturellen und biologisierenden Rassismus hinweisen. 
+- Es lassen sich in den *Grenzboten* Stereotypen ausmachen, die auf kulturellen und biologisierenden Rassismus hinweisen. 
 - Die Autoren bauten derartige rassistische Ressentiments in den 1880er Jahren in ihre Argumentation ein.
 
 ---
 
 # Schule, Erziehung in den *Grenzboten*
 
-- **Schritt 1** Korpusstatistische Abfrage (über lexdb):
+- **Schritt 1:** Korpusstatistische Abfrage (über lexdb):
   + Identifizierung hochfrequenter [Begriffe](https://kaskade.dwds.de/dstar/grenzboten/lexdb/view.perl?select=w,p,l,sum(f%23+as+freq&from=lex&where=p+=+'NN'&groupby=l&orderby=freq+desc&offset=0&limit=100&_s=submit)
-  + Auswahl interessanter Begriffe (hier: [Schule](https://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=hist&pformat=svg&q=Schule&_s=submit&n=date+class&smooth=none&gr=1&sl=1&w=1&wb=0&pr=0&xr=*:*&yr=0:*&psize=840,480&points=1))
-  + Ermittlung hochfrequenter [Kompositaformen](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=kwic&corpus=&limit=100&ctx=8&q=count(/schule/i+#sep%23+#by[$l]+#desc_count&_s=submit) für „Schule“
+  + Auswahl interessanter Begriffe (hier: [*Schule*](https://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=hist&pformat=svg&q=Schule&_s=submit&n=date+class&smooth=none&gr=1&sl=1&w=1&wb=0&pr=0&xr=*:*&yr=0:*&psize=840,480&points=1))
+  + Ermittlung hochfrequenter [Kompositaformen](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=kwic&corpus=&limit=100&ctx=8&q=count(/schule/i+#sep%23+#by[$l]+#desc_count&_s=submit) für *Schule*
 
-- **Schritt 2** Suchabfragen über DiaCollo:
-  + Häufigste Adjektive, Substantive, Eigennamen
+- **Schritt 2:** Suchabfragen über DiaCollo:
+  + häufigste Adjektive, Substantive, Eigennamen
   + Ermittlung von Debatten
   + Recherche in den Texten über KWIC
 
 ---
 
-# Schule, Erziehung in den *Grenzboten*
+# *Schule*, *Erziehung* in den *Grenzboten*
 
 Wortverläufe im Vergleich
 
@@ -598,20 +596,20 @@ Wortverläufe im Vergleich
 
 ---
 
-# Schule, Erziehung in den *Grenzboten*
+# *Schule*, *Erziehung* in den *Grenzboten*
 
-„Gymnasium“ in DiaCollo
+*Gymnasium* in DiaCollo
 
 ![](https://i.imgur.com/1WFXkZU.jpg)
-Kollokationen für „Gymnasium“ in 1850er Jahren
+Kollokationen für *Gymnasium* in 1850er Jahren
 ![](https://i.imgur.com/bjbVyKy.jpg)
-Kollokationen für [„Gymnasium“](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Gymnasium&date=&slice=10&score=ld&kbest=10&cutoff=&profile=2&format=cloud&global=1&groupby=&eps=0)" in 1870e Jahren
+Kollokationen für [*Gymnasium*](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Gymnasium&date=&slice=10&score=ld&kbest=10&cutoff=&profile=2&format=cloud&global=1&groupby=&eps=0)" in 1870e Jahren
 
 ---
 
-# Schule, Erziehung in den *Grenzboten*
+# *Schule*, *Erziehung* in den *Grenzboten*
 
-Wortbeziehungen für „Erziehung“ in DiaCollo
+Wortbeziehungen für *Erziehung* in DiaCollo
 - [Adjektive](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
   + häuslich, sittlich (1850er)
   + weiblich, ästhetisch (1870er)
@@ -622,8 +620,8 @@ Wortbeziehungen für „Erziehung“ in DiaCollo
   + Unterricht, Schule und Ausbildung treten hinzu (1870er)
 - [Eigennamen](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
   + Frankreich (1840er)
-  + Hegel, Lessing, Fichte, Schiller, Rousseau (1860-1880)
-  + Paul Güßfeldt, Georg Kerschensteiner (1890-1910)
+  + Hegel, Lessing, Fichte, Schiller, Rousseau (1860–1880)
+  + Paul Güßfeldt, Georg Kerschensteiner (1890–1910)
 
 ---
 
@@ -661,7 +659,7 @@ Wortbeziehungen für „Erziehung“ in DiaCollo
 # DDR-Pressportal: „Jahr 2000“
 
 - Ursprünglich: utopischer Fluchtpunkt für umfangreiche soziale und ökonomische Entwicklungen in der kommunistischen Integrationszone
-- Aber: mehr und mehr auch als Begriff zut Markierung des realen Übergangs ins reale Jahr 2000:
+- Aber: mehr und mehr auch als Begriff zur Markierung des realen Übergangs ins reale Jahr 2000:
     + Das Millennium wird zur Schwelle, die tatsächlich überquert werden kann,
     + verdeutlicht durch Wendungen wie „darüber hinaus“.
 
