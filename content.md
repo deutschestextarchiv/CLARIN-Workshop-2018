@@ -512,15 +512,15 @@ class: title-slide
 
 # Fallbeispiele - Vorgehenweise
 
-*Explorativ*
-- Wordstatistiken und Verlaufskurven
-- signifikante Veränderungen im Inhaltswortbereich
-- Hinweise auf Bedeutungsverschiebung bzw. Bezeichnungswandel
+- *Explorativ*
+  + Wordstatistiken und Verlaufskurven
+  + signifikante Veränderungen im Inhaltswortbereich
+  + Hinweise auf Bedeutungsverschiebung bzw. Bezeichnungswandel
 
-*Hypothesengeleitet*
-- spezifische Korpusrecherchen zur efizienten Belegauswahl
-- Belegauswertung
-- quantitatives „Untermauern“
+- *Hypothesengeleitet*
+  + spezifische Korpusrecherchen zur efizienten Belegauswahl
+  + Belegauswertung
+  + quantitatives „Untermauern“
 
 ---
 
