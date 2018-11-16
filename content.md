@@ -434,7 +434,7 @@ Wie geht der Forscher mit quantitativen Ergebnissen um?
 # Distant Reading
 
 - Definition:
-  *
+  * ...
 - Verfahren:
   1. Volltextsuche
   2. Lexikometrie und Korpusstatistik
@@ -458,7 +458,7 @@ Fünf neue Basisfertigkeiten nach Andreas Fickers (Luxemburg):
 
 # Close + Distant = Blended Reading?
 
-> *„Unter dem Begriff des ‚blended reading‘ schlagen wir eine Strategie im Sinne einer Best Practise vor, die semiautomatische Analyseverfahren mit klassischer Textlektüre so integriert, dass sozialwissenschaftliche Erkenntnispotenziale, die sich auf die Auswertung großer Textdatenmengen stützen, optimal ausgeschöpft werden.“*
+> *„Unter dem Begriff des ‚blended reading‘ schlagen wir eine Strategie im Sinne einer Best Practise vor, die semiautomatische Analyseverfahren mit klassischer Textlektüre so integriert, dass sozialwissenschaftliche Erkenntnispotenziale, die sich auf die Auswertung großer Textdatenmengen stützen, optimal ausgeschöpft werden.“*<br />
 > Stulpe/Lemke (Textmining in den Sozialwissenschaften, 2016, S. 21)
 
 ---
@@ -484,7 +484,7 @@ class: title-slide
 
 # Diachrone Kollokationsanalyse
 
-> *„Die Bedeutung eines Wortes ist sein Gebrauch in der Sprache“*
+> *„Die Bedeutung eines Wortes ist sein Gebrauch in der Sprache“*<br />
 > Ludwig Wittgenstein (Philosophische Untersuchungen)
 
 - DiaCollo ermöglicht die Analyse von Sprachwandel indem es die historische (Zeit-)Dimension in großen digitalen Textkorpora visualisiert
