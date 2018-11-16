@@ -572,14 +572,14 @@ Einfache Suchabfrage für den Wortstamm „Jude“
 
 **Vorsichtiger Befund:** 
 - Es lassen sich in den Grenzboten Stereotypen ausmachen, die auf kulturellen und biologisierenden Rassismus hinweisen. 
-- Die Autoren bauten derartige rassistische Ressentiments in den 1880er-Jahren in ihre Argumentation ein.
+- Die Autoren bauten derartige rassistische Ressentiments in den 1880er Jahren in ihre Argumentation ein.
 
 ---
 
-# Schule und Erziehung in den *Grenzboten*
+# Schule, Erziehung in den *Grenzboten*
 
 - **Schritt 1** Korpusstatistische Abfrage (über lexdb):
-  + Identifizierung hochfrequenter [Begriffe](https://kaskade.dwds.de/dstar/grenzboten/lexdb/view.perl?select=w,p,l,sum(f%23+as+freq&from=lex&where=p+=+'NN'&groupby=l&orderby=freq+desc&offset=0&limit=100&_s=submit)==
+  + Identifizierung hochfrequenter [Begriffe](https://kaskade.dwds.de/dstar/grenzboten/lexdb/view.perl?select=w,p,l,sum(f%23+as+freq&from=lex&where=p+=+'NN'&groupby=l&orderby=freq+desc&offset=0&limit=100&_s=submit)
   + Auswahl interessanter Begriffe (hier: [Schule](https://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=hist&pformat=svg&q=Schule&_s=submit&n=date+class&smooth=none&gr=1&sl=1&w=1&wb=0&pr=0&xr=*:*&yr=0:*&psize=840,480&points=1))
   + Ermittlung hochfrequenter [Kompositaformen](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=kwic&corpus=&limit=100&ctx=8&q=count(/schule/i+#sep%23+#by[$l]+#desc_count&_s=submit) für „Schule“
 
@@ -590,7 +590,7 @@ Einfache Suchabfrage für den Wortstamm „Jude“
 
 ---
 
-# Schule und Erziehung in den *Grenzboten*
+# Schule, Erziehung in den *Grenzboten*
 
 Wortverläufe im Vergleich
 
@@ -598,7 +598,7 @@ Wortverläufe im Vergleich
 
 ---
 
-# Schule und Erziehung in den *Grenzboten*
+# Schule, Erziehung in den *Grenzboten*
 
 „Gymnasium“ in DiaCollo
 
@@ -609,21 +609,131 @@ Kollokationen für [„Gymnasium“](http://kaskade.dwds.de/dstar/grenzboten/dia
 
 ---
 
-# Schule und Erziehung in den *Grenzboten*
+# Schule, Erziehung in den *Grenzboten*
 
 Wortbeziehungen für „Erziehung“ in DiaCollo
-
 - [Adjektive](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
   + häuslich, sittlich (1850er)
   + weiblich, ästhetisch (1870er)
   + national und dann staatsbürgerlich (1910er)
-
 - [Nomen](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
   + Menschengeschlecht (Lessings Hauptwerk von 1780)
   + Jugend/ Kind (1860er)
   + Unterricht, Schule und Ausbildung treten hinzu (1870er)
-
 - [Eigennamen](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
   + Frankreich (1840er)
   + Hegel, Lessing, Fichte, Schiller, Rousseau (1860-1880)
   + Paul Güßfeldt, Georg Kerschensteiner (1890-1910)
+
+---
+
+# DDR-Presseportal
+
+![](https://i.imgur.com/qff7BHj.jpg)
+
+- drei DDR-Zeitungen:
+  + *Neues Deutschland*
+  + *Berliner Zeitung*
+  + *Neue Zeit*
+
+Im Rahmen eines CLARIN-D Kurationsprojektes aufbereitet und für Text Mining tauglich gemacht.
+
+---
+
+# Forschungsstand DDR-Pressesprache
+
+- ideologisch motivierte Entdifferenzierung von Sprache, semantische Verknappung
+- extensive Nutzung von Hochwertwörtern wie „Frieden“
+- Ritualisierung des Berichtsstils, -tons, und der Sprache
+- DDR-Presse diente als ein „Verlautbarungsorgan“ der SED, um Entscheidungen des Politbüros zu verkünden.
+
+---
+
+# DDR-Pressportal: „Jahr 2000“
+
+- signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er-Jahre
+- Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
+
+
+![](https://i.imgur.com/HFyrTDj.jpg)
+
+---
+
+# DDR-Pressportal: „Jahr 2000“
+
+- Ursprünglich: utopischer Fluchtpunkt für umfangreiche soziale und ökonomische Entwicklungen in der kommunistischen Integrationszone
+- Aber: mehr und mehr auch als Begriff zut Markierung des realen Übergangs ins reale Jahr 2000:
+    + Das Millennium wird zur Schwelle, die tatsächlich überquert werden kann,
+    + verdeutlicht durch Wendungen wie „darüber hinaus“.
+
+
+---
+
+# Ritualisierung: Erweiterbare feste Phrasen
+
+![](https://i.imgur.com/JAHmVqE.jpg)
+
+---
+
+# Entdifferenzierung in der DDR-Pressesprache
+
+- **Schritt 1**: Identifikation von hochfrequenten Begriffen mittels korpusstatistischer Auswertung
+- **Schritt 2**: Auswahl interessanter Begriffe wie „Wohl“ oder „Sorge“
+- **Schritt 3**: Abfrage dieser Begriffe über DiaCollo
+- **Schritt 4**: Auswertung typischer Kollokate
+
+---
+
+# Entdifferenzierung in der DDR-Pressesprache
+
+Identifikation hochfrequenter Begriffe im Korpus
+
+![](https://i.imgur.com/5GiP1Tp.jpg)
+
+Häufigste Nomen im Gesamtkorpus (Menschen, Leben, [Tanzen], Welt)
+
+---
+
+# Modulare Sprache in der DDR-Presse
+
+![](https://i.imgur.com/YHWObHj.jpg)
+Kollokationen zu „Wohl“ in den 1950ern (ND, 20 Beste Treffer, nur Nomen)
+
+![](https://i.imgur.com/xejHUOc.jpg)
+
+Kollokationen zu "Wohl" in den [1980er Jahren](http://kaskade.dwds.de/dstar/nd/diacollo/?query=Wohl&_s=submit&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=l%2Cp%3DNN&debug=1&eps=0)
+
+---
+
+# Modulare Sprache in der DDR-Presse
+
+Exemplarisches Muster für die modulare Sprache
+
+![](https://i.imgur.com/zioe6Z6.jpg)
+
+---
+
+# Der Begriff „Bürgernähe“
+
+Sprachtransfer in die DDR-Presse?
+- **qualitativer Befund:**
+  + Suche nach „Bürgernähe“ als Begriff in der Sprache des SED-Regimes
+  + **kein** Begriff der offiziellen Herrschaftssprache
+- **quantitativer Vergleich:**
+  + ZEIT-Korpus (BBAW)
+  + DDR-Presseportal
+
+---
+
+# Der Begriff „Bürgernähe“
+
+- **Ergebnisse ZEIT:**
+  + erster Beleg 1971
+  + formulierter Anspruch an die (kommunale) Verwaltung
+  + Ende der 1970er Jahre als direkte Aufgabe der Politik formuliert
+  + etwa gleichbleibende Frequenz in 1970er und [leicht rückläufig](http://kaskade.dwds.de/dstar/zeit/dstar.perl?fmt=hist&pformat=svg&q=B%C3%BCrgernah&_s=submit&n=abs&smooth=none&sl=1&w=1&wb=0&pr=0&xr=1949%3A1990&yr=0%3A*&psize=840%2C480) in 1980er Jahren
+-**Ergebnisse DDR-Presseportal:**
+  + erster Beleg 1979 in Berliner Zeitung
+  + auch hier stark auf Verwaltung bezogen
+  + Gegenbegriff „Bürokratismus“
+  + starker [Anstieg der Frequenz](http://kaskade.dwds.de/dstar/nd/dstar.perl?ctx=8&q=B%C3%BCrgernah&start=1&limit=10&fmt=hist) in den Jahren 1987-1989
