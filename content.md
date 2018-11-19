@@ -697,7 +697,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
 
 
-.center[.img-fit[![Jahr2000](https://i.imgur.com/HFyrTDj.jpg)]]
+.center[.img-fit[![](https://i.imgur.com/HFyrTDj.jpg)]]
 
 ---
 
