@@ -112,7 +112,7 @@ class: title-slide
 
 # Linguistische Annotation
 
-- Zum Begriff der Linguistischen Annotation
+- zum Begriff der Linguistischen Annotation
     + Auszeichnung bestimmter linguistischer Eigenschaften
     + Bezug zu einer Einheit des Textes:
         * **Wort**: Silbenstruktur, morphologische Zerlegung, lexikalische
@@ -134,6 +134,14 @@ Semantik etc.
 # Linguistische Annotation
 
 - Beispiel:
+<small>
+| Text | *Aerzte* | *ſind* | *des* | *HERRgotts* | *Menſchenflikker* |
+|:----:|:----:|:----:|:----:|:----:|:----:|
+| Normalisiert | *Ärzte* | *sind* | *des* | *Herrgotts* | *Menschenflicker* |
+| Lemma | *Arzt* | *sein* | *die* | *Herrgott* | *Menschenflicker* | 
+| Tag | `NN` | `VAFIN` | `ART` | `NN` | `NN` |
+| Grammatik | `Subjekt` | `Prädikat` | `Adv. Bestimmung` | `Adv. Bestimmung` | `Objekt` |
+</small>
 
 ---
 
