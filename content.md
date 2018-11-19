@@ -697,7 +697,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
 
 
-![](https://i.imgur.com/HFyrTDj.jpg)
+.center[.img-fit[![Jahr2000](https://i.imgur.com/HFyrTDj.jpg)]]
 
 ---
 
@@ -730,7 +730,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 Identifikation hochfrequenter Begriffe im Korpus
 
-![](https://i.imgur.com/5GiP1Tp.jpg)
+.center[.img-fit[![](https://i.imgur.com/5GiP1Tp.jpg)]]
 
 Häufigste Nomen im Gesamtkorpus (Menschen, Leben, [Tanzen], Welt)
 
