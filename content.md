@@ -119,7 +119,7 @@ class: title-slide
 Semantik etc.
         * *Wortgruppe*: Mehrwortausdrücke, Namen, Kollokationen etc.
         * *Phrase*: syntaktische Kategorie, syntaktische Funktion
-        * *Satz*: syntaktische Struktur, Satzsemantik, Funktion im Text (?)
+        * *Satz*: syntaktische Struktur, Satzsemantik, Funktion im Text
     + *manuelle* vs. *automatische* Annotation
 - Annotation von Korpora
     + Strukturierung und Anreicherung der Rohtexte zum Zwecke
