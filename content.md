@@ -51,7 +51,7 @@ class: title-slide
 # Google _Ngram_ – Fluch oder Segen?
 
 Fallbeispiel: `love=>*_noun` im „English“-Korpus 
-(10 häufigste Nomen in der Nähe von „love“)
+(10 häufigste Nomen in der Nähe von *love*)
 
 
 ![](https://i.imgur.com/zq6Rr0T.jpg)
@@ -570,7 +570,7 @@ class: title-slide
 
 ![](https://i.imgur.com/cjApfpk.jpg)
 
-- Nationalliberale Zeitschrift „Die Grenzboten“
+- Nationalliberale Zeitschrift *Die Grenzboten*
   + Erscheinungszeitraum 1841 bis 1922 wöchentlich, zeitweise zweiwöchentlich
   + Insgesamt ca. 270 Bände (ca. 187 000 Seiten)
 - Digitalisierung an der SuUB Bremen im Rahmen zweier DFG-Projekte
@@ -584,7 +584,7 @@ class: title-slide
 Methodik:
 - **Schritt 1**: Deduktive Eingrenzung eines vielversprechenden Zeitraumes
   + die 1880er Jahre und der Antisemitismusstreit
-- **Schritt 2**: Suche nach Kollokaten, (hier Nomen `NN`), für den Wortstamm „Jude“
+- **Schritt 2**: Suche nach Kollokaten, (hier Nomen `NN`), für den Wortstamm *Jude*
   + Auswahl ungewöhnlicher Kollokate, die auf Ressentiments  hinweisen
 - **Schritt 3**: Analyse der Textpassagen via Funktion `key word in context` (KWIC)
   + konventionelle Quellen‐Exegese
@@ -593,7 +593,7 @@ Methodik:
 
 # Antisemitismus in den *Grenzboten*
 
-Einfache Suchabfrage nach dem Lemma „Jude“
+Einfache Suchabfrage nach dem Lemma *Jude*
 
 
 ![](https://i.imgur.com/wS4QxCC.jpg)
@@ -602,7 +602,7 @@ Einfache Suchabfrage nach dem Lemma „Jude“
 
 # Antisemitismus in den *Grenzboten*
 
-*Close reading* Beispiel zu „Vermehrung“ und „Handel“
+*Close reading* Beispiel zu *Vermehrung* und *Handel*
 
 > *„Aber auch abgesehen von diesem Umstände erscheint die [Vermehrung](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=html&corpus=&limit=10&ctx=8&q=NEAR(+($l=@%27Jude%27%29+=1,+($l=@%27Vermehrung%27+WITH+$p=@%27NN%27%29+=2,+8%29+#SEPARATE+%23asc_date[1880-00-00,1889-99-99]+%23cntxt+1+%23in+p&_s=submit) der Juden noch viel zu bedeutend, um allein auf besonders günstige biotische Verhältnisse, auf größere Fruchtbarkeit und längere Lebensdauer, die ihnen nebenher nicht abgesprochen werden sollen, zurückgeführt werden zu können.“*<br />
 > In: „Die Juden in Osterreich.“ Die Grenzboten, Jg. 41 (1882), S. 629.
@@ -686,13 +686,13 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 # Forschungsstand DDR-Pressesprache
 
 - ideologisch motivierte Entdifferenzierung von Sprache, semantische Verknappung
-- extensive Nutzung von Hochwertwörtern wie „Frieden“
+- extensive Nutzung von Hochwertwörtern wie *Frieden*
 - Ritualisierung des Berichtsstils, -tons, und der Sprache
 - DDR-Presse diente als ein „Verlautbarungsorgan“ der SED, um Entscheidungen des Politbüros zu verkünden.
 
 ---
 
-# DDR-Pressportal: „Jahr 2000“
+# DDR-Pressportal: *Jahr 2000*
 
 - signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er-Jahre
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
@@ -701,12 +701,12 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 ---
 
-# DDR-Pressportal: „Jahr 2000“
+# DDR-Pressportal: *Jahr 2000*
 
 - Ursprünglich: utopischer Fluchtpunkt für umfangreiche soziale und ökonomische Entwicklungen in der kommunistischen Integrationszone
 - Aber: mehr und mehr auch als Begriff zur Markierung des realen Übergangs ins reale Jahr 2000:
     + Das Millennium wird zur Schwelle, die tatsächlich überquert werden kann,
-    + verdeutlicht durch Wendungen wie „darüber hinaus“.
+    + verdeutlicht durch Wendungen wie *darüber hinaus*.
 
 
 ---
@@ -720,7 +720,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 # Entdifferenzierung der Pressesprache
 
 - **Schritt 1**: Identifikation von hochfrequenten Begriffen mittels korpusstatistischer Auswertung
-- **Schritt 2**: Auswahl interessanter Begriffe wie „Wohl“ oder „Sorge“
+- **Schritt 2**: Auswahl interessanter Begriffe wie *Wohl* oder *Sorge*
 - **Schritt 3**: Abfrage dieser Begriffe über DiaCollo
 - **Schritt 4**: Auswertung typischer Kollokate
 
@@ -732,16 +732,16 @@ Identifikation hochfrequenter Begriffe im Korpus
 
 <center><img src="https://i.imgur.com/5GiP1Tp.jpg" width="25%" /></center>
 
-Häufigste Nomen im Gesamtkorpus (Menschen, Leben, [Tanzen], Welt)
+Häufigste Nomen im Gesamtkorpus (*Menschen*, *Leben*, [*Tanzen*], *Welt*)
 
 ---
 
 # Modulare Sprache in der DDR-Presse
 
 <img src="https://i.imgur.com/YHWObHj.jpg" width="85%" />
-Kollokationen zu „Wohl“ in den 50ern (ND, nur Nomen)
+Kollokationen zu *Wohl* in den 50ern (ND, nur Nomen)
 <img src="https://i.imgur.com/xejHUOc.jpg" width="85%" />
-Kollokationen zu "Wohl" in den [1980er Jahren](http://kaskade.dwds.de/dstar/nd/diacollo/?query=Wohl&_s=submit&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=l%2Cp%3DNN&debug=1&eps=0)
+Kollokationen zu *Wohl* in den [1980er Jahren](http://kaskade.dwds.de/dstar/nd/diacollo/?query=Wohl&_s=submit&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=l%2Cp%3DNN&debug=1&eps=0)
 
 ---
 
@@ -753,11 +753,11 @@ Exemplarisches Muster für die modulare Sprache
 
 ---
 
-# Der Begriff „Bürgernähe“
+# Der Begriff *Bürgernähe*
 
 Sprachtransfer in die DDR-Presse?
 - **qualitativer Befund:**
-  + Suche nach „Bürgernähe“ als Begriff in der Sprache des SED-Regimes
+  + Suche nach *Bürgernähe* als Begriff in der Sprache des SED-Regimes
   + **kein** Begriff der offiziellen Herrschaftssprache
 - **quantitativer Vergleich:**
   + ZEIT-Korpus (BBAW)
@@ -765,7 +765,7 @@ Sprachtransfer in die DDR-Presse?
 
 ---
 
-# Der Begriff „Bürgernähe“
+# Der Begriff *Bürgernähe*
 
 - **Ergebnisse ZEIT:**
   + erster Beleg 1971
@@ -775,5 +775,5 @@ Sprachtransfer in die DDR-Presse?
 - **Ergebnisse DDR-Presseportal:**
   + erster Beleg 1979 in Berliner Zeitung
   + auch hier stark auf Verwaltung bezogen
-  + Gegenbegriff „Bürokratismus“
+  + Gegenbegriff *Bürokratismus*
   + starker [Anstieg der Frequenz](http://kaskade.dwds.de/dstar/nd/dstar.perl?ctx=8&q=B%C3%BCrgernah&start=1&limit=10&fmt=hist) in den Jahren 1987-1989
