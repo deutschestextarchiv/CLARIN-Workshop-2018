@@ -26,11 +26,11 @@ class: title-slide
 
 # Überblick
 
-- Vier Ziele:
-  1. Vermittlung technischer Grundlagen
-  2. Veranschaulichung der computerlinguistischen Verfahren anhand einfacher Beispiele
-  3. Annäherung an die methodischen Herausforderungen der digitalen Hermeneutik
-  4. Einstieg in fachlich relevante Fallbeispiele
+Vier Ziele:
+1. Vermittlung technischer Grundlagen
+2. Veranschaulichung der computerlinguistischen Verfahren anhand einfacher Beispiele
+3. Annäherung an die methodischen Herausforderungen der digitalen Hermeneutik
+4. Einstieg in fachlich relevante Fallbeispiele
 
 ---
 
@@ -43,8 +43,8 @@ class: title-slide
 
 - *Alle arbeiten bereits „digital“*
     + mit Smartboards, Lernplattformen und digitalen Bildungsmedien
-    + mit Online‐Katalogen der Bibliotheken und fachlichen Onlineportalen (z. B. HSozKult)
-    + mit digitalen Werkzeugen (wie Googles „Ngram‐Viewer“)
+    + mit Online‐Katalogen der Bibliotheken und fachlichen Onlineportalen (z. B. *H-Soz-Kult*)
+    + mit digitalen Werkzeugen (wie *Google Ngram Viewer*)
 
 ---
 
@@ -83,10 +83,10 @@ class: title-slide
 
 # Textkorpora an der BBAW
 
-- große Auswahl an **gegenwartssparchlichen**
+- große Auswahl an **gegenwartssprachlichen**
     + DWDS-Kernkorpus, -Ergänzungskorpus
     + Zeitungskorpora (*Die ZEIT*, *Spiegel (online)*, Auswahl *Bild, Welt* etc.)
-    + Spezialkorpora (Filuntertitel, politische Reden, Bundestagsprotokolle und -drucksachen)
+    + Spezialkorpora (Filmuntertitel, politische Reden, Bundestagsprotokolle und -drucksachen)
 - und **historischen** Korpora
     + DTA-Kernkorpus
     + DTA-Ergänzungen (Auswahl *Wikisource*, Auswahl *Gutenberg*, Auswahl *Mannheimer historische Zeitungen* etc.)
@@ -112,11 +112,10 @@ class: title-slide
 
 # Linguistische Annotation
 
-- zum Begriff der Linguistischen Annotation
+- zum Begriff linguistische Annotation
     + Auszeichnung bestimmter linguistischer Eigenschaften
     + Bezug zu einer Einheit des Textes:
-        * **Wort**: Silbenstruktur, morphologische Zerlegung, lexikalische
-Semantik etc.
+        * *Wort*: Silbenstruktur, morphologische Zerlegung, lexikalische Semantik etc.
         * *Wortgruppe*: Mehrwortausdrücke, Namen, Kollokationen etc.
         * *Phrase*: syntaktische Kategorie, syntaktische Funktion
         * *Satz*: syntaktische Struktur, Satzsemantik, Funktion im Text
@@ -216,9 +215,9 @@ CDU/CSU → CDU / CSU
 # Morphologische Analyse
 
 - Verfahren des maschinellen Lernens nicht geeignet
-- Herausfordend für Sprachen mit komplexer Wortbildung
+- herausfordend für Sprachen mit komplexer Wortbildung
 - `Finite State Morphology` (klassischer regelbasierter Ansatz):
-    + Man nehme
+    + man nehme
         * eine **große** Liste einfacher Wörter
         * deren **morphosyntaktische** Eigenschaften
         * Vor- und Nachsilben,
@@ -482,7 +481,7 @@ Wie geht der Forscher mit quantitativen Ergebnissen um?
   2. Lexikometrie und Korpusstatistik
   3. Methoden maschinellen Lernens/ Topic modelling
   4. Netzwerkanalysen
-- **Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Text-Korpora
+- **Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Textkorpora
 
 
 ---
@@ -552,14 +551,14 @@ class: title-slide
 
 ---
 
-# Fallbeispiele - Vorgehenweise
+# Fallbeispiele &ndash; Vorgehenweise
 
-- *Explorativ*
+- *explorativ*
   + Wordstatistiken und Verlaufskurven
   + signifikante Veränderungen im Inhaltswortbereich
   + Hinweise auf Bedeutungsverschiebung bzw. Bezeichnungswandel
 
-- *Hypothesengeleitet*
+- *hypothesengeleitet*
   + spezifische Korpusrecherchen zur effizienten Belegauswahl
   + Belegauswertung
   + quantitatives „Untermauern“
@@ -572,7 +571,7 @@ class: title-slide
 
 - Nationalliberale Zeitschrift *Die Grenzboten*
   + Erscheinungszeitraum 1841 bis 1922 wöchentlich, zeitweise zweiwöchentlich
-  + Insgesamt ca. 270 Bände (ca. 187 000 Seiten)
+  + insgesamt ca. 270 Bände (ca. 187 000 Seiten)
 - Digitalisierung an der SuUB Bremen im Rahmen zweier DFG-Projekte
   + Erschließung von Volltext **und** Struktur 
   + seit 2017 auch in CLARIN-D integriert
@@ -584,10 +583,10 @@ class: title-slide
 Methodik:
 - **Schritt 1**: Deduktive Eingrenzung eines vielversprechenden Zeitraumes
   + die 1880er Jahre und der Antisemitismusstreit
-- **Schritt 2**: Suche nach Kollokaten, (hier Nomen `NN`), für den Wortstamm *Jude*
+- **Schritt 2**: Suche nach Kollokaten (hier Nomen `NN`) für das Lemma *Jude*
   + Auswahl ungewöhnlicher Kollokate, die auf Ressentiments  hinweisen
 - **Schritt 3**: Analyse der Textpassagen via Funktion `key word in context` (KWIC)
-  + konventionelle Quellen‐Exegese
+  + konventionelle Quellenexegese
 
 ---
 
@@ -602,12 +601,12 @@ Einfache Suchabfrage nach dem Lemma *Jude*
 
 # Antisemitismus in den *Grenzboten*
 
-*Close reading* Beispiel zu *Vermehrung* und *Handel*
+*Close reading*-Beispiel zu *Vermehrung* und *Handel*
 
 > *„Aber auch abgesehen von diesem Umstände erscheint die [Vermehrung](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=html&corpus=&limit=10&ctx=8&q=NEAR(+($l=@%27Jude%27%29+=1,+($l=@%27Vermehrung%27+WITH+$p=@%27NN%27%29+=2,+8%29+#SEPARATE+%23asc_date[1880-00-00,1889-99-99]+%23cntxt+1+%23in+p&_s=submit) der Juden noch viel zu bedeutend, um allein auf besonders günstige biotische Verhältnisse, auf größere Fruchtbarkeit und längere Lebensdauer, die ihnen nebenher nicht abgesprochen werden sollen, zurückgeführt werden zu können.“*<br />
 > In: „Die Juden in Osterreich.“ Die Grenzboten, Jg. 41 (1882), S. 629.
 
-> *„Der tüchtigste Bauer ist oft dem simpelsten Juden lange nicht gewachsen, wo es um Geld, [Handel](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=html&corpus=&limit=10&ctx=8&q=NEAR%28+%28%24l%3D%40%27Jude%27%29+%3D1%2C+%28%24l%3D%40%27Handel%27+WITH+%24p%3D%40%27NN%27%29+%3D2%2C+8%29+&_s=submit#SEPARATE+%23asc_date%5B1880-00-00,1889-99-99%5D+%23cntxt+1+%23in+p&_s=submit), um Schein und Hypothek und Wechsel geht.“*
+> *„Der tüchtigste Bauer ist oft dem simpelsten Juden lange nicht gewachsen, wo es um Geld, [Handel](http://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=html&corpus=&limit=10&ctx=8&q=NEAR%28+%28%24l%3D%40%27Jude%27%29+%3D1%2C+%28%24l%3D%40%27Handel%27+WITH+%24p%3D%40%27NN%27%29+%3D2%2C+8%29+&_s=submit#SEPARATE+%23asc_date%5B1880-00-00,1889-99-99%5D+%23cntxt+1+%23in+p&_s=submit), um Schein und Hypothek und Wechsel geht.“*<br />
 > In: „Erdboden.“ Die Grenzboten, Jg. 59 (1900), S. 271.
 
 ---
@@ -620,7 +619,7 @@ Einfache Suchabfrage nach dem Lemma *Jude*
 
 ---
 
-# Schule, Erziehung in den *Grenzboten*
+# *Schule*, *Erziehung* in den *Grenzboten*
 
 - **Schritt 1:** Korpusstatistische Abfrage (über lexdb):
   + Identifizierung hochfrequenter [Begriffe](https://kaskade.dwds.de/dstar/grenzboten/lexdb/view.perl?select=w,p,l,sum(f%23+as+freq&from=lex&where=p+=+'NN'&groupby=l&orderby=freq+desc&offset=0&limit=100&_s=submit)
@@ -661,7 +660,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
   + national und dann staatsbürgerlich (1910er)
 - [Nomen](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
   + Menschengeschlecht (Lessings Hauptwerk von 1780)
-  + Jugend/ Kind (1860er)
+  + Jugend/Kind (1860er)
   + Unterricht, Schule und Ausbildung treten hinzu (1870er)
 - [Eigennamen](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Erziehung&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&global=1&groupby=l,p=ADJA&eps=0)
   + Frankreich (1840er)
@@ -694,7 +693,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # DDR-Pressportal: *Jahr 2000*
 
-- signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er-Jahre
+- signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er Jahre
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
 
 <center><img src="https://i.imgur.com/HFyrTDj.jpg" width="64%" /></center>
@@ -739,7 +738,7 @@ Häufigste Nomen im Gesamtkorpus (*Menschen*, *Leben*, [*Tanzen*], *Welt*)
 # Modulare Sprache in der DDR-Presse
 
 <img src="https://i.imgur.com/YHWObHj.jpg" width="85%" />
-Kollokationen zu *Wohl* in den 50ern (ND, nur Nomen)
+Kollokationen zu *Wohl* in den 1950ern (ND, nur Nomen)
 <img src="https://i.imgur.com/xejHUOc.jpg" width="85%" />
 Kollokationen zu *Wohl* in den [1980er Jahren](http://kaskade.dwds.de/dstar/nd/diacollo/?query=Wohl&_s=submit&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=l%2Cp%3DNN&debug=1&eps=0)
 
@@ -776,4 +775,4 @@ Sprachtransfer in die DDR-Presse?
   + erster Beleg 1979 in Berliner Zeitung
   + auch hier stark auf Verwaltung bezogen
   + Gegenbegriff *Bürokratismus*
-  + starker [Anstieg der Frequenz](http://kaskade.dwds.de/dstar/nd/dstar.perl?ctx=8&q=B%C3%BCrgernah&start=1&limit=10&fmt=hist) in den Jahren 1987-1989
+  + starker [Anstieg der Frequenz](http://kaskade.dwds.de/dstar/nd/dstar.perl?ctx=8&q=B%C3%BCrgernah&start=1&limit=10&fmt=hist) in den Jahren 1987&ndash;1989
