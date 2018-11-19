@@ -9,10 +9,11 @@ code, code * { font-family:monospace; font-size:1.3rem; background:#f6f8fa }
 
 img { max-width:90% }
 .img-orig img { max-width:initial !important }
+.img-fit img { max-width:70% }
 
 li { line-height:1.5em; font-size:2rem }
 
-p { line-height:1.25em; font-size:2rem }
+p { line-height:1.25em; font-size:2rem; margin-block-end: auto }
 
 pre { margin:0; padding:.5em; background:#f6f8fa }
 
