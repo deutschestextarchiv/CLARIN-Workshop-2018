@@ -68,11 +68,13 @@ class: title-slide
 
 - Sammlungen von Texten
 - *sprachwissenschaftliche* Referenzkorpora
-  + repräsentative Erfassung der Gesamtheit einer Sprache (bzw. eines Sprachstandes)
-  + Englisch: *British National Corpus*
-  + Deutsch:
-    * *DWDS-Kernkorpus*
-    * *Deutsches Textarchiv*
+    + repräsentative Erfassung der Gesamtheit einer Sprache (bzw. eines Sprachstandes)
+    + Englisch: *British National Corpus*
+    + Deutsch:
+        * *DWDS-Kernkorpus*
+        * *Deutsches Textarchiv*
+- *Spezialkorpora*
+    + repräsentative Erfassung eines speziellen Ausschnitts einer Sprache
 
 ---
 
