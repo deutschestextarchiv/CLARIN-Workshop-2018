@@ -672,8 +672,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # DDR-Presseportal
 
-![](https://i.imgur.com/qff7BHj.jpg)
-
+background-image: url(https://i.imgur.com/qff7BHj.jpg)
 - drei DDR-Zeitungen:
   + *Neues Deutschland*
   + *Berliner Zeitung*
