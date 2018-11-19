@@ -696,8 +696,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 - signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er-Jahre
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
 
-
-.center[.img-fit[![](https://i.imgur.com/HFyrTDj.jpg)]]
+<center><img src="https://i.imgur.com/HFyrTDj.jpg" width="64%" /></center>
 
 ---
 
@@ -713,7 +712,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # Ritualisierung der Presseprache
 
-![](https://i.imgur.com/JAHmVqE.jpg)
+<img src="https://i.imgur.com/JAHmVqE.jpg" width="82%" />
 
 ---
 
@@ -730,7 +729,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 Identifikation hochfrequenter Begriffe im Korpus
 
-.center[.img-fit[![](https://i.imgur.com/5GiP1Tp.jpg)]]
+<center><img src="https://i.imgur.com/5GiP1Tp.jpg" width="25%" /></center>
 
 Häufigste Nomen im Gesamtkorpus (Menschen, Leben, [Tanzen], Welt)
 
@@ -738,9 +737,9 @@ Häufigste Nomen im Gesamtkorpus (Menschen, Leben, [Tanzen], Welt)
 
 # Modulare Sprache in der DDR-Presse
 
-![](https://i.imgur.com/YHWObHj.jpg)
+<img src="https://i.imgur.com/YHWObHj.jpg" width="85%" />
 Kollokationen zu „Wohl“ in den 50ern (ND, nur Nomen)
-![](https://i.imgur.com/xejHUOc.jpg)
+<img src="https://i.imgur.com/xejHUOc.jpg" width="85%" />
 Kollokationen zu "Wohl" in den [1980er Jahren](http://kaskade.dwds.de/dstar/nd/diacollo/?query=Wohl&_s=submit&date=&slice=10&score=ld&kbest=20&cutoff=&profile=2&format=cloud&groupby=l%2Cp%3DNN&debug=1&eps=0)
 
 ---
