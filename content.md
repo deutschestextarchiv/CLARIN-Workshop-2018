@@ -60,7 +60,19 @@ Fallbeispiel: `love=>*_noun` im „English“-Korpus
 
 class: title-slide
 
-# Textsammlungen
+# Textkorpora
+
+---
+
+# Textkorpora
+
+- Sammlungen von Texten
+- *sprachwissenschaftliche* Referenzkorpora
+  + repräsentative Erfassung der Gesamtheit einer Sprache (bzw. eines Sprachstandes)
+  + Englisch: *British National Corpus*
+  + Deutsch:
+    * *DWDS-Kernkorpus*
+    * *Deutsches Textarchiv*
 
 ---
 
