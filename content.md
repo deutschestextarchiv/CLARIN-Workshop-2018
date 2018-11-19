@@ -670,8 +670,6 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 ---
 
-background-image: url(https://i.imgur.com/qff7BHj.jpg)
-
 # DDR-Presseportal
 
 - drei DDR-Zeitungen:
@@ -679,6 +677,8 @@ background-image: url(https://i.imgur.com/qff7BHj.jpg)
   + *Berliner Zeitung*
   + *Neue Zeit*
 - im Rahmen eines CLARIN-D-Kurationsprojektes aufbereitet
+
+.center[![pp](https://i.imgur.com/qff7BHj.jpg)]
 
 ---
 
