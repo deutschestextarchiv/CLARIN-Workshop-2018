@@ -92,13 +92,21 @@ class: title-slide
     + DTA-Ergänzungen (Auswahl *Wikisource*, Auswahl *Gutenberg*, Auswahl *Mannheimer historische Zeitungen* etc.)
     + *Dinglers Polytechnisches Journal*
     + *Die Grenzboten*
-- **einheitliche Architektur** für Annotation, Indizierung und Auswertung und **Präsentation** [dstar](http://kaskade.dstar.de)
+- **einheitliche Architektur** für Annotation, Indizierung und Auswertung und **Präsentation**: [dstar](http://kaskade.dwds.de/dstar)
 
 ---
 
 class: title-slide
 
 # Linguistische Annotation
+
+---
+
+# Linguistische Annotation
+
+- Ist: Text als lineare Folge von Zeichen
+- Soll:
+.center[![Websiete](figures/websiete.png)]
 
 ---
 
