@@ -133,6 +133,8 @@ Semantik etc.
 
 # Linguistische Annotation
 
+- Beispiel:
+
 | Text | *Aerzte* | *ſind* | *des* | *HERRgotts* | *Menſchenflikker* |
 |------|----------|--------|-------|-------------|-------------------|
 | Normalisiert | *Ärzte* | *sind* | *des* | *Herrgotts* | *Menschenflicker* |
