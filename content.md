@@ -92,8 +92,7 @@ class: title-slide
     + DTA-Ergänzungen (Auswahl *Wikisource*, Auswahl *Gutenberg*, Auswahl *Mannheimer historische Zeitungen* etc.)
     + *Dinglers Polytechnisches Journal*
     + *Die Grenzboten*
-- **einheitliche Architektur** für Annotation, Indizierung und Auswertung
-- **einheitliche Präsentation**: [dstar](http://kaskade.dstar.de)
+- **einheitliche Architektur** für Annotation, Indizierung und Auswertung und **Präsentation** [dstar](http://kaskade.dstar.de)
 
 ---
 
