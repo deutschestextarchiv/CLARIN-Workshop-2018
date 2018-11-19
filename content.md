@@ -81,6 +81,22 @@ class: title-slide
 
 ---
 
+# Textkorpora an der BBAW
+
+- große Auswahl an **gegenwartssparchlichen**
+    + DWDS-Kernkorpus, -Ergänzungskorpus
+    + Zeitungskorpora (*Die ZEIT*, *Spiegel (online)*, Auswahl *Bild, Welt* etc.)
+    + Spezialkorpora (Filuntertitel, politische Reden, Bundestagsprotokolle und -drucksachen)
+- und **historischen** Korpora
+    + DTA-Kernkorpus
+    + DTA-Ergänzungen (Auswahl *Wikisource*, Auswahl *Gutenberg*, Auswahl *Mannheimer historische Zeitungen* etc.)
+    + *Dinglers Polytechnisches Journal*
+    + *Die Grenzboten*
+- **einheitliche Architektur** für Annotation, Indizierung und Auswertung
+- **einheitliche Präsentation**: [dstar](http://kaskade.dstar.de)
+
+---
+
 class: title-slide
 
 # Linguistische Annotation
