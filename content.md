@@ -133,9 +133,8 @@ Semantik etc.
 
 # Linguistische Annotation
 
-- Beispiel:
 | Text | *Aerzte* | *ſind* | *des* | *HERRgotts* | *Menſchenflikker* |
-|:----:|:----:|:----:|:----:|:----:|:----:|
+|------|----------|--------|-------|-------------|-------------------|
 | Normalisiert | *Ärzte* | *sind* | *des* | *Herrgotts* | *Menschenflicker* |
 | Lemma | *Arzt* | *sein* | *die* | *Herrgott* | *Menschenflicker* | 
 | Tag | `NN` | `VAFIN` | `ART` | `NN` | `NN` |
