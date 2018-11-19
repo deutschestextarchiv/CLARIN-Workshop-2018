@@ -676,9 +676,10 @@ Wortbeziehungen für *Erziehung* in DiaCollo
   + *Neues Deutschland*
   + *Berliner Zeitung*
   + *Neue Zeit*
+- im Rahmen eines DFG-Projekts digitalisiert
 - im Rahmen eines CLARIN-D-Kurationsprojektes aufbereitet
 
-.center[![pp](https://i.imgur.com/qff7BHj.jpg)]
+.right[![pp](https://i.imgur.com/qff7BHj.jpg)]
 
 ---
 
