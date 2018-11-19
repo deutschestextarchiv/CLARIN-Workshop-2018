@@ -645,11 +645,10 @@ Wortverläufe im Vergleich
 # *Schule*, *Erziehung* in den *Grenzboten*
 
 *Gymnasium* in DiaCollo
-
-![](https://i.imgur.com/1WFXkZU.jpg)
+![gym1](https://i.imgur.com/1WFXkZU.jpg)
 Kollokationen für *Gymnasium* in 1850er Jahren
-![](https://i.imgur.com/bjbVyKy.jpg)
-Kollokationen für [*Gymnasium*](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Gymnasium&date=&slice=10&score=ld&kbest=10&cutoff=&profile=2&format=cloud&global=1&groupby=&eps=0)" in 1870e Jahren
+![gym2](https://i.imgur.com/bjbVyKy.jpg)
+Kollokationen für [*Gymnasium*](http://kaskade.dwds.de/dstar/grenzboten/diacollo/?query=@Gymnasium&date=&slice=10&score=ld&kbest=10&cutoff=&profile=2&format=cloud&global=1&groupby=&eps=0)" in 1870er Jahren
 
 ---
 
