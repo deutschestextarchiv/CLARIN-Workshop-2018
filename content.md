@@ -383,6 +383,23 @@ count: false
 
 ---
 
+# Dependenzparsing
+
+- Bestimmung der **strukturellen** Beziehungen zwischen Wörtern im Satz
+- **regelbasierter** Ansatz
+    + handgeschriebene Grammatik
+    + Grundform, Kategorie und morphosyntaktische Merkmale als Beschreibungseinheit
+    + Implementierung mit Hilfe endlicher, gewichteter Automaten
+(schnell!)
+
+---
+
+# Dependenzparsing
+
+.center[<img src="figures/dependency_ex.svg" style="width:800px"/>]
+
+---
+
 # Distributionelle Semantik
 
 - Semantik: Theorie von der sprachlichen Bedeutung
@@ -426,23 +443,6 @@ count: false
 
 ---
 
-# Dependenzparsing
-
-- Bestimmung der **strukturellen** Beziehungen zwischen Wörtern im Satz
-- **regelbasierter** Ansatz
-    + handgeschriebene Grammatik
-    + Grundform, Kategorie und morphosyntaktische Merkmale als Beschreibungseinheit
-    + Implementierung mit Hilfe endlicher, gewichteter Automaten
-(schnell!)
-
----
-
-# Dependenzparsing
-
-.center[<img src="figures/dependency_ex.svg" style="width:800px"/>]
-
----
-
 # Typische Verbindungen
 
 + Wortvergleiche: Gemeinsamkeiten und Unterschiede <span style="color:#5B7BB6;font-weight:bold">verkünden</span> und <span style="color:#c30c60;font-weight:bold">bekanntgeben</span>
@@ -475,12 +475,15 @@ Wie geht der Forscher mit quantitativen Ergebnissen um?
 # Distant Reading
 
 - Definition:
-  * ...
+    + quantitative Betrachtung großer Textmengen
+    + Verständnis von Texten durch statistische Auswertung (und **nicht** durch Lesen)
+> *... a little pact with the devil: we know how to read texts, now let’s learn how not to read them.* <br />
+> Moretti, F.: Distant reading. Verso, 2013.
 - Verfahren:
-  1. Volltextsuche
-  2. Lexikometrie und Korpusstatistik
-  3. Methoden maschinellen Lernens/ Topic modelling
-  4. Netzwerkanalysen
+    1. Volltextsuche
+    2. Lexikometrie und Korpusstatistik
+    3. Methoden maschinellen Lernens/ Topic modelling
+    4. Netzwerkanalysen
 - **Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Textkorpora
 
 
