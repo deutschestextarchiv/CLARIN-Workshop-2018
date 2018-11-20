@@ -98,7 +98,7 @@ class: title-slide
 
 # DDC-Korpussuchmaschine
 
-- Indizierung der Text und Metadaten
+- Indizierung der Text- und Metadaten
     + Wortattribute
         * Token, Lemma, PoS, kanonische Schreibung ...
     + Metadatenattribute
