@@ -96,7 +96,7 @@ class: title-slide
 
 ---
 
-# DDC-Korpussuchmaschine
+# Korpussuchmaschine *DDC*
 
 - Indizierung der Text- und Metadaten
     + Wortattribute
