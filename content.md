@@ -534,6 +534,7 @@ class: title-slide
 - DiaCollo ermöglicht die Analyse von Sprachwandel, indem es die historische (Zeit-)Dimension in großen digitalen Textkorpora visualisiert
   + Untersuchungszeiträume frei skalierbar (jahresweise, dekadenweise etc.)
   + Visualisierungsoptionen für Abfrageergebnisse (Wordclouds, Bubble, Gmotion, HTML‐Listen)
+  + prinzipiell eine Kombination von Wortverlaufskurven und distributioneller Semantik
 - getestet an großen und mittelgroßen Korpora, darunter *Die Grenzboten* und *DDR-Presseportal*
 
 ---
@@ -624,6 +625,7 @@ Einfache Suchabfrage nach dem Lemma *Jude*
 
 # *Schule*, *Erziehung* in den *Grenzboten*
 
+Methodik:
 - **Schritt 1:** Korpusstatistische Abfrage (über lexdb):
   + Identifizierung hochfrequenter [Begriffe](https://kaskade.dwds.de/dstar/grenzboten/lexdb/view.perl?select=w,p,l,sum(f%23+as+freq&from=lex&where=p+=+'NN'&groupby=l&orderby=freq+desc&offset=0&limit=100&_s=submit)
   + Auswahl interessanter Begriffe (hier: [*Schule*](https://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=hist&pformat=svg&q=Schule&_s=submit&n=date+class&smooth=none&gr=1&sl=1&w=1&wb=0&pr=0&xr=*:*&yr=0:*&psize=840,480&points=1))
@@ -699,7 +701,7 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 - signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er Jahre
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
 
-<center><img src="https://i.imgur.com/HFyrTDj.jpg" width="64%" /></center>
+<center><img src="figures/y2000.svg" width="64%" /></center>
 
 ---
 
