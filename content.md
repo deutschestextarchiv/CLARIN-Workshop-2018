@@ -484,7 +484,7 @@ Wie geht der Forscher mit quantitativen Ergebnissen um?
     2. Lexikometrie und Korpusstatistik
     3. Methoden maschinellen Lernens/ Topic modelling
     4. Netzwerkanalysen
-- **Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Textkorpora
+- **Voraussetzung:** annotierte Textkorpora
 
 
 ---
@@ -707,8 +707,8 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # DDR-Pressportal: *Jahr 2000*
 
-- Ursprünglich: utopischer Fluchtpunkt für umfangreiche soziale und ökonomische Entwicklungen in der kommunistischen Integrationszone
-- Aber: mehr und mehr auch als Begriff zur Markierung des realen Übergangs ins reale Jahr 2000:
+- ursprünglich: utopischer Fluchtpunkt für umfangreiche soziale und ökonomische Entwicklungen in der kommunistischen Integrationszone
+- aber: mehr und mehr auch als Begriff zur Markierung des realen Übergangs ins reale Jahr 2000:
     + Das Millennium wird zur Schwelle, die tatsächlich überquert werden kann,
     + verdeutlicht durch Wendungen wie *darüber hinaus*.
 
