@@ -781,3 +781,34 @@ Sprachtransfer in die DDR-Presse?
   + auch hier stark auf Verwaltung bezogen
   + Gegenbegriff *Bürokratismus*
   + starker [Anstieg der Frequenz](http://kaskade.dwds.de/dstar/nd/dstar.perl?ctx=8&q=B%C3%BCrgernah&start=1&limit=10&fmt=hist) in den Jahren 1987&ndash;1989
+
+---
+
+# Fallbeispiele zusammenfassend:
+
+- DiaCollo unterstützt:
+    + semasiologische Methodik (Bedeutungswandel)
+    + induktive und explorative Methoden
+    + fließenden Wechsel von distant zu close reading (und zurück)
+    + neue digitale Ansätze für Textanalyse und Hermeneutik
+- derzeit nicht unterstützt:
+    + onomasiologische Methodik (Bezeichnungswandel)
+    + syntaktische Beziehungen (i.e. Wortprofil + Wortverlauf)
+
+---
+
+# Schlusswort
+
+- Ausprobieren!
+    + Feedback von Fachwissenschaftlern entscheidend für die (Weiter-)Entwicklung der Werkzeuge
+    + Verbreitung in der Forschung entscheidend für Förderung
+- Perspektive für die Geschichtswissenschaften?
+    + paralleles **Quellenstudium** unabdingbar
+    + Wissenschaftler werden mehr denn je lesen, nicht weniger!
+    + Digitale Geschichtswissenschaft inkludiert **fachliche** (und **nicht technische**) Methodenentwicklung.
+
+---
+
+class: title-slide
+
+# Vielen Dank für Ihre Aufmerksamkeit!
