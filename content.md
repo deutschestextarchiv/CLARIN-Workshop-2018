@@ -698,8 +698,8 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # DDR-Pressportal: *Jahr 2000*
 
-- signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er Jahre
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
+- aber: signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er Jahre
 
 <center><img src="figures/y2000.svg" width="64%" /></center>
 
