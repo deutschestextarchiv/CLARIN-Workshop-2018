@@ -96,6 +96,21 @@ class: title-slide
 
 ---
 
+# DDC-Korpussuchmaschine
+
+- Indizierung der Text und Metadaten
+    + Wortattribute
+        * Token, Lemma, PoS, kanonische Schreibung ...
+    + Metadatenattribute
+        * Autor, Titel, Datum, Textsorte ...
+- Abfragetypen
+    + Term-Expansion: [Query Lizard: `Bank`](http://kaskade.dwds.de/dtaos/lizard.perl?q=Bank)
+    + Konjunktion, satzlokal: [`Bank, {Geld, Kredit}`](http://kaskade.dwds.de/dstar/dta+dwds/dta.perl?fmt=kwic&corpus=&limit=50&ctx=&q=Bank+%7BGeld%2CKredit%7D+%23in+s+%23asc_date&_s=submit)
+    + oder termlokal: [`Kohl with p=NE`](http://kaskade.dwds.de/dstar/zeit/dta.perl?q=Kohl+with+%24p%3DNE+%23dsc_date%5B1982%2C1999%5D)
+    + Wildcards, Phrasen, RegEx: [`"{}anti* \#2 Propaganda"`](http://kaskade.dwds.de/dstar/zeit/dta.perl?q=%22anti%2A+%232+Propaganda%22+%23left%5B0%5D&fmt=kwic&ctx=6)
+
+---
+
 class: title-slide
 
 # Linguistische Annotation
@@ -383,6 +398,23 @@ count: false
 
 ---
 
+# Dependenzparsing
+
+- Bestimmung der **strukturellen** Beziehungen zwischen Wörtern im Satz
+- **regelbasierter** Ansatz
+    + handgeschriebene Grammatik
+    + Grundform, Kategorie und morphosyntaktische Merkmale als Beschreibungseinheit
+    + Implementierung mit Hilfe endlicher, gewichteter Automaten
+(schnell!)
+
+---
+
+# Dependenzparsing
+
+.center[<img src="figures/dependency_ex.svg" style="width:800px"/>]
+
+---
+
 # Distributionelle Semantik
 
 - Semantik: Theorie von der sprachlichen Bedeutung
@@ -426,23 +458,6 @@ count: false
 
 ---
 
-# Dependenzparsing
-
-- Bestimmung der **strukturellen** Beziehungen zwischen Wörtern im Satz
-- **regelbasierter** Ansatz
-    + handgeschriebene Grammatik
-    + Grundform, Kategorie und morphosyntaktische Merkmale als Beschreibungseinheit
-    + Implementierung mit Hilfe endlicher, gewichteter Automaten
-(schnell!)
-
----
-
-# Dependenzparsing
-
-.center[<img src="figures/dependency_ex.svg" style="width:800px"/>]
-
----
-
 # Typische Verbindungen
 
 + Wortvergleiche: Gemeinsamkeiten und Unterschiede <span style="color:#5B7BB6;font-weight:bold">verkünden</span> und <span style="color:#c30c60;font-weight:bold">bekanntgeben</span>
@@ -475,13 +490,16 @@ Wie geht der Forscher mit quantitativen Ergebnissen um?
 # Distant Reading
 
 - Definition:
-  * ...
+    + quantitative Betrachtung großer Textmengen
+    + Verständnis von Texten durch statistische Auswertung (und **nicht** durch Lesen)
+> *... a little pact with the devil: we know how to read texts, now let’s learn how not to read them.* <br />
+> Moretti, F.: Distant reading. Verso, 2013.
 - Verfahren:
-  1. Volltextsuche
-  2. Lexikometrie und Korpusstatistik
-  3. Methoden maschinellen Lernens/ Topic modelling
-  4. Netzwerkanalysen
-- **Wichtig:** Voraussetzung hierfür sind immer entsprechend annotierte Textkorpora
+    1. Volltextsuche
+    2. Lexikometrie und Korpusstatistik
+    3. Methoden maschinellen Lernens/ Topic modelling
+    4. Netzwerkanalysen
+- **Voraussetzung:** annotierte Textkorpora
 
 
 ---
@@ -531,6 +549,7 @@ class: title-slide
 - DiaCollo ermöglicht die Analyse von Sprachwandel, indem es die historische (Zeit-)Dimension in großen digitalen Textkorpora visualisiert
   + Untersuchungszeiträume frei skalierbar (jahresweise, dekadenweise etc.)
   + Visualisierungsoptionen für Abfrageergebnisse (Wordclouds, Bubble, Gmotion, HTML‐Listen)
+  + prinzipiell eine Kombination von Wortverlaufskurven und distributioneller Semantik
 - getestet an großen und mittelgroßen Korpora, darunter *Die Grenzboten* und *DDR-Presseportal*
 
 ---
@@ -621,6 +640,7 @@ Einfache Suchabfrage nach dem Lemma *Jude*
 
 # *Schule*, *Erziehung* in den *Grenzboten*
 
+Methodik:
 - **Schritt 1:** Korpusstatistische Abfrage (über lexdb):
   + Identifizierung hochfrequenter [Begriffe](https://kaskade.dwds.de/dstar/grenzboten/lexdb/view.perl?select=w,p,l,sum(f%23+as+freq&from=lex&where=p+=+'NN'&groupby=l&orderby=freq+desc&offset=0&limit=100&_s=submit)
   + Auswahl interessanter Begriffe (hier: [*Schule*](https://kaskade.dwds.de/dstar/grenzboten/dstar.perl?fmt=hist&pformat=svg&q=Schule&_s=submit&n=date+class&smooth=none&gr=1&sl=1&w=1&wb=0&pr=0&xr=*:*&yr=0:*&psize=840,480&points=1))
@@ -693,17 +713,17 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # DDR-Pressportal: *Jahr 2000*
 
-- signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er Jahre
 - Intuition des Forschers: schwindende utopische Perspektive in der DDR-Presse
+- aber: signifikanter Anstieg der Vorkommenshäufigkeit seit Mitte der 1980er Jahre
 
-<center><img src="https://i.imgur.com/HFyrTDj.jpg" width="64%" /></center>
+<center><img src="figures/y2000.svg" width="64%" /></center>
 
 ---
 
 # DDR-Pressportal: *Jahr 2000*
 
-- Ursprünglich: utopischer Fluchtpunkt für umfangreiche soziale und ökonomische Entwicklungen in der kommunistischen Integrationszone
-- Aber: mehr und mehr auch als Begriff zur Markierung des realen Übergangs ins reale Jahr 2000:
+- ursprünglich: utopischer Fluchtpunkt für umfangreiche soziale und ökonomische Entwicklungen in der kommunistischen Integrationszone
+- aber: mehr und mehr auch als Begriff zur Markierung des realen Übergangs ins reale Jahr 2000:
     + Das Millennium wird zur Schwelle, die tatsächlich überquert werden kann,
     + verdeutlicht durch Wendungen wie *darüber hinaus*.
 
@@ -727,11 +747,11 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # Entdifferenzierung der Pressesprache
 
-Identifikation hochfrequenter Begriffe im Korpus
+Identifikation hochfrequenter Begriffe im Korpus:
 
 <center><img src="https://i.imgur.com/5GiP1Tp.jpg" width="25%" /></center>
 
-Häufigste Nomen im Gesamtkorpus (*Menschen*, *Leben*, [*Tanzen*], *Welt*)
+Häufigste Nomen (inkl. *Menschen*, *Leben*, ~~*Tanzen*~~, *Welt* !)
 
 ---
 
@@ -776,3 +796,34 @@ Sprachtransfer in die DDR-Presse?
   + auch hier stark auf Verwaltung bezogen
   + Gegenbegriff *Bürokratismus*
   + starker [Anstieg der Frequenz](http://kaskade.dwds.de/dstar/nd/dstar.perl?ctx=8&q=B%C3%BCrgernah&start=1&limit=10&fmt=hist) in den Jahren 1987&ndash;1989
+
+---
+
+# Fallbeispiele zusammenfassend:
+
+- DiaCollo unterstützt:
+    + semasiologische Methodik (Bedeutungswandel)
+    + induktive und explorative Methoden
+    + fließenden Wechsel von distant zu close reading (und zurück)
+    + neue digitale Ansätze für Textanalyse und Hermeneutik
+- derzeit nicht unterstützt:
+    + onomasiologische Methodik (Bezeichnungswandel)
+    + syntaktische Beziehungen (i.e. Wortprofil + Wortverlauf)
+
+---
+
+# Schlusswort
+
+- Ausprobieren!
+    + Feedback von Fachwissenschaftlern entscheidend für die (Weiter-)Entwicklung der Werkzeuge
+    + Verbreitung in der Forschung entscheidend für Förderung
+- Perspektive für die Geschichtswissenschaften?
+    + paralleles **Quellenstudium** unabdingbar
+    + Wissenschaftler werden mehr denn je lesen, nicht weniger!
+    + Digitale Geschichtswissenschaft inkludiert **fachliche** (und **nicht technische**) Methodenentwicklung.
+
+---
+
+class: title-slide
+
+# Vielen Dank für Ihre Aufmerksamkeit!
