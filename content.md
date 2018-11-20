@@ -751,7 +751,7 @@ Identifikation hochfrequenter Begriffe im Korpus:
 
 <center><img src="https://i.imgur.com/5GiP1Tp.jpg" width="25%" /></center>
 
-Häufigste Nomen (inkl. *Menschen*, *Leben*, ~~*Tanzen*~~, *Welt* !)
+Häufigste Nomen (inkl. *Menschen*, *Leben*, ~~*Tanzen*~~, *Welt*!)
 
 ---
 
