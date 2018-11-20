@@ -732,11 +732,11 @@ Wortbeziehungen für *Erziehung* in DiaCollo
 
 # Entdifferenzierung der Pressesprache
 
-Identifikation hochfrequenter Begriffe im Korpus
+Identifikation hochfrequenter Begriffe im Korpus:
 
 <center><img src="https://i.imgur.com/5GiP1Tp.jpg" width="25%" /></center>
 
-Häufigste Nomen im Gesamtkorpus (*Menschen*, *Leben*, [*Tanzen*], *Welt*)
+Häufigste Nomen (inkl. *Menschen*, *Leben*, ~~*Tanzen*~~, *Welt* !)
 
 ---
 
