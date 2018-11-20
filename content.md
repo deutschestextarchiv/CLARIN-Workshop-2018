@@ -96,6 +96,21 @@ class: title-slide
 
 ---
 
+# DDC-Korpussuchmaschine
+
+- Indizierung der Text und Metadaten
+    + Wortattribute
+        * Token, Lemma, PoS, kanonische Schreibung ...
+    + Metadatenattribute
+        * Autor, Titel, Datum, Textsorte ...
+- Abfragetypen
+    + Term-Expansion: [Query Lizard: `Bank`](http://kaskade.dwds.de/dtaos/lizard.perl?q=Bank})
+    + Konjunktion, satzlokal: [`Bank, {Geld, Kredit}`](http://kaskade.dwds.de/dta+dwds/dta.perl?q=Bank+\%7BGeld\%2CKredit\%7D+\%23in+s+\%23asc_date)
+    + oder termlokal: [`Kohl with p=NE`](http://kaskade.dwds.de/dstar/zeit/dta.perl?q=Kohl+with+\%24p\%3DNE+\%23dsc_date\%5B1982\%2C1999\%5D)
+    + Wildcards, Phrasen, RegEx: [`"{}anti* \#2 Propaganda"`](http://kaskade.dwds.de/dstar/zeit/dta.perl?q=\%22anti\%2A+\%232+Propaganda\%22+\%23left\%5B0\%5D\&fmt=kwic&ctx=6)
+
+---
+
 class: title-slide
 
 # Linguistische Annotation
